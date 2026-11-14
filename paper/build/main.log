@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.7.9)  14 NOV 2026 22:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.7.9)  14 NOV 2026 23:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -482,78 +482,78 @@ File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 ) (D:\1.msc\Big-Data\paper\build\main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 
 -- Lines per column: 56 (exact).
 \symNewLetters=\mathgroup6
 \symxsymbols=\mathgroup7
-LaTeX Font Info:    Redeclaring math symbol \ddagger on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \dagger on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \ddagger on input line 31.
+LaTeX Font Info:    Redeclaring math symbol \dagger on input line 31.
 \c@mv@regular=\count325
 LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `operators' in the math version `regular' on input line 29.
+(Font)              `operators' in the math version `regular' on input line 31.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `regular'
-(Font)                  OT1/cmr/m/n --> T1/formata/n/n on input line 29.
+(Font)                  OT1/cmr/m/n --> T1/formata/n/n on input line 31.
 LaTeX Font Info:    Overwriting symbol font `NewLetters' in version `regular'
-(Font)                  T1/times/n/it --> T1/formata/n/it on input line 29.
+(Font)                  T1/times/n/it --> T1/formata/n/it on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `regular'
-(Font)                  T1/formata/n/n --> T1/formata/n/n on input line 29.
+(Font)                  T1/formata/n/n --> T1/formata/n/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `regular'
-(Font)                  OT1/cmr/m/it --> T1/formata/n/it on input line 29.
+(Font)                  OT1/cmr/m/it --> T1/formata/n/it on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `regular'
-(Font)                  OT1/cmr/bx/n --> T1/formata/m/n on input line 29.
+(Font)                  OT1/cmr/bx/n --> T1/formata/m/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `regular'
-(Font)                  OT1/cmtt/m/n --> OT1/pcr/m/n on input line 29.
+(Font)                  OT1/cmtt/m/n --> OT1/pcr/m/n on input line 31.
 \c@mv@medium=\count326
 LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `operators' in the math version `medium' on input line 29.
+(Font)              `operators' in the math version `medium' on input line 31.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `medium'
-(Font)                  OT1/cmr/m/n --> T1/formata/m/n on input line 29.
+(Font)                  OT1/cmr/m/n --> T1/formata/m/n on input line 31.
 LaTeX Font Info:    Overwriting symbol font `NewLetters' in version `medium'
-(Font)                  T1/times/n/it --> T1/formata/m/it on input line 29.
+(Font)                  T1/times/n/it --> T1/formata/m/it on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `medium'
-(Font)                  > T1/formata/m/n on input line 29.
+(Font)                  > T1/formata/m/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `medium'
-(Font)                  OT1/cmr/m/it --> T1/formata/m/it on input line 29.
+(Font)                  OT1/cmr/m/it --> T1/formata/m/it on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `medium'
-(Font)                  OT1/cmr/bx/n --> T1/formata/b/n on input line 29.
+(Font)                  OT1/cmr/bx/n --> T1/formata/b/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `medium'
-(Font)                  OT1/cmtt/m/n --> OT1/pcr/b/n on input line 29.
+(Font)                  OT1/cmtt/m/n --> OT1/pcr/b/n on input line 31.
 \c@mv@black=\count327
 LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `operators' in the math version `black' on input line 29.
+(Font)              `operators' in the math version `black' on input line 31.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `black'
-(Font)                  OT1/cmr/m/n --> T1/formata/b/n on input line 29.
+(Font)                  OT1/cmr/m/n --> T1/formata/b/n on input line 31.
 LaTeX Font Info:    Overwriting symbol font `NewLetters' in version `black'
-(Font)                  T1/times/n/it --> T1/formata/b/it on input line 29.
+(Font)                  T1/times/n/it --> T1/formata/b/it on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `black'
-(Font)                  > T1/formata/b/n on input line 29.
+(Font)                  > T1/formata/b/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `black'
-(Font)                  OT1/cmr/m/it --> T1/formata/b/it on input line 29.
+(Font)                  OT1/cmr/m/it --> T1/formata/b/it on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `black'
-(Font)                  OT1/cmr/bx/n --> T1/formata/b/n on input line 29.
+(Font)                  OT1/cmr/bx/n --> T1/formata/b/n on input line 31.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `black'
-(Font)                  OT1/cmtt/m/n --> OT1/pcr/b/n on input line 29.
+(Font)                  OT1/cmtt/m/n --> OT1/pcr/b/n on input line 31.
 LaTeX Font Info:    Trying to load font information for T1+times on input line 
-29.
+31.
 (t1times.fd)
 (C:\Users\Software\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf
 .mkii
@@ -580,46 +580,144 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 s.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 29.
+Package hyperref Info: Link coloring OFF on input line 31.
 <bullet.png, id=5, 12.045pt x 35.38219pt>
 File: bullet.png Graphic file (type png)
 <use bullet.png>
-Package pdftex.def Info: bullet.png  used on input line 38.
+Package pdftex.def Info: bullet.png  used on input line 40.
 (pdftex.def)             Requested size: 5.0pt x 14.6871pt.
 File: bullet.png Graphic file (type png)
 <use bullet.png>
-Package pdftex.def Info: bullet.png  used on input line 42.
+Package pdftex.def Info: bullet.png  used on input line 44.
 (pdftex.def)             Requested size: 5.0pt x 14.6871pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 47.
 
+Underfull \hbox (badness 1701) in paragraph at lines 44--46
+[]\T1/formata/b/n/10 INDEX TERMS[]  \T1/times/n/n/10 Agen-tic AI, di-ag-nos-tic
+ ev-i-dence ac-qui-si-tion, re-source ef-fi-ciency, state-ful stream
+ []
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 49.
 
 (C:\Users\Software\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 47.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 49.
 
 
 (C:\Users\Software\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Calculating math sizes for size <6.6> on input line 47.
+LaTeX Font Info:    Calculating math sizes for size <6.6> on input line 49.
 
-Overfull \hbox (9.2679pt too wide) in paragraph at lines 47--47
+Overfull \hbox (9.2679pt too wide) in paragraph at lines 49--49
 []  
  []
 
 
-Overfull \hbox (9.2679pt too wide) in paragraph at lines 47--47
+Overfull \hbox (9.2679pt too wide) in paragraph at lines 49--49
 []  
  []
 
 
-Underfull \hbox (badness 1838) in paragraph at lines 50--51
-\T1/times/n/n/10 latency re-quire-ments. Many stream-ing op-er-a-tors pro-vide
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+\T1/times/n/n/10 high-rate event se-quences and trans-form them un-der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+\T1/times/n/n/10 state-ful pro-cess-ing for win-dows, joins, ag-gre-ga-tions,
+ []
+
+
+Underfull \hbox (badness 8151) in paragraph at lines 52--53
+\T1/times/n/n/10 and event-time co-or-di-na-tion that is not pro-vided by
+ []
+
+
+Underfull \hbox (badness 3199) in paragraph at lines 52--53
+\T1/times/n/n/10 for adap-ta-tion: chang-ing par-al-lelism or place-ment may
+ []
+
+
+Underfull \hbox (badness 3907) in paragraph at lines 52--53
+\T1/times/n/n/10 ne-ces-si-tate a state move or check-point re-store, record
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+\T1/times/n/n/10 on the in-ter-play be-tween pro-cess-ing se-man-tics, state
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+\T1/times/n/n/10 back from dis-tur-bances with-out in-fi-nite ac-cu-mu-la-tion
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 54--55
+\T1/times/n/n/10 of in-put. Back-log is re-ceived in-put that has not been
+ []
+
+
+Underfull \hbox (badness 5954) in paragraph at lines 54--55
+\T1/times/n/n/10 pro-cessed and a ser-vice level ob-jec-tive (SLO) is an
+ []
+
+
+Underfull \hbox (badness 4660) in paragraph at lines 54--55
+\T1/times/n/n/10 op-er-a-tional re-quire-ment, like a la-tency, avail-abil-ity,
+ or
+ []
+
+
+Underfull \hbox (badness 6493) in paragraph at lines 54--55
+\T1/times/n/n/10 re-cov-ery limit. There-fore, restor-ing a job is not the
+ []
+
+
+Underfull \hbox (badness 5519) in paragraph at lines 54--55
+\T1/times/n/n/10 same as restor-ing ser-vice: if post-recovery pro-cess-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+\T1/times/n/n/10 job may re-main per-ma-nently be-hind. Recovery-aware
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+\T1/times/n/n/10 re-con-fig-u-ra-tion, par-ti-tion-ing, multi-objective tun-ing
+,
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 3138) in paragraph at lines 56--57
+[]\T1/times/n/n/10 Operating sig-nal that leads up to an SLO vi-o-la-tion
+ []
+
+
+Underfull \hbox (badness 6477) in paragraph at lines 56--57
+\T1/times/n/n/10 is usu-ally not clear. In-suf-fi-cient ca-pac-ity, load skew,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+\T1/times/n/n/10 com-mu-ni-ca-tion over-head, slow worker, check-point
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 56--57
+\T1/times/n/n/10 in-ter-ven-tion, some may not be re-me-di-a-ble with merely
+ []
+
+
+Underfull \hbox (badness 2617) in paragraph at lines 56--57
+\T1/times/n/n/10 per-form an in-ap-pro-pri-ate re-con-fig-u-ra-tion or waste ti
+me
+ []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -627,30 +725,226 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <logo.png, id=18, 206.27063pt x 53.44969pt>
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 55.
+Package pdftex.def Info: logo.png  used on input line 57.
 (pdftex.def)             Requested size: 91.32pt x 23.66309pt.
  [1
 
 
  <./logo.png> <./bullet.png>]
-Underfull \hbox (badness 1418) in paragraph at lines 60--61
-\T1/times/n/n/10 integrated re-source use and mea-sured tran-si-tion/recovery
+Underfull \hbox (badness 6348) in paragraph at lines 58--59
+\T1/times/n/n/10 which tools to in-voke, as well as in-te-grate mul-ti-ple
+ []
+
+
+Underfull \hbox (badness 1472) in paragraph at lines 58--59
+\T1/times/n/n/10 and adding more con-text can re-sult in higher costs for
+ []
+
+
+Underfull \hbox (badness 2057) in paragraph at lines 58--59
+\T1/times/n/n/10 the other hand, pre-ma-ture ter-mi-na-tion may lead to the
+ []
+
+
+Underfull \hbox (badness 3158) in paragraph at lines 60--61
+\T1/times/n/n/10 bound-ary. A di-ag-nos-tic ob-ser-va-tion gath-ers in-for-ma-t
+ion
+ []
+
+
+Underfull \hbox (badness 1953) in paragraph at lines 60--61
+\T1/times/n/n/10 use and tran-si-tion cost would be done by a nu-mer-i-cal
+ []
+
+
+Underfull \hbox (badness 6412) in paragraph at lines 62--63
+\T1/times/n/n/10 of in-ter-ven-ing based on an-other ob-ser-va-tion is more
+ []
+
+
+Underfull \hbox (badness 2980) in paragraph at lines 62--63
+\T1/times/n/n/10 The planned de-ci-sion rule is go-ing to use cor-rect-ness
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+\T1/times/n/n/10 tran-si-tion/recovery over-head. The evidence-collection
+ []
+
+
+Underfull \vbox (badness 1867) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+[]\T1/times/b/n/10 RQ1 (de-ci-sion value): \T1/times/n/n/10 When all meth-ods r
+e-ceive
+ []
+
+
+Underfull \hbox (badness 6364) in paragraph at lines 67--68
+\T1/times/n/n/10 the same ini-tial ev-i-dence and can ex-e-cute the same
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 67--68
+\T1/times/n/n/10 ac-tions, does action-sensitive ev-i-dence ac-qui-si-tion se-l
+ect
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+\T1/times/n/n/10 bet-ter in-ter-ven-tions than a fixed-budget di-ag-nos-tic
+ []
+
+
+Underfull \hbox (badness 2717) in paragraph at lines 67--68
+\T1/times/n/n/10 agent, de-ter-min-is-tic ev-i-dence pro-cess-ing, and nu-mer-i
+-cal
+ []
+
+
+Underfull \hbox (badness 2318) in paragraph at lines 69--70
+\T1/times/n/n/10 to re-duce the re-sources al-lo-cated and con-sumed, while
+ []
+
+
+Underfull \hbox (badness 4060) in paragraph at lines 69--70
+\T1/times/n/n/10 main-tain-ing the cor-rect-ness of the re-sults, the la-tency
+ []
+
+
+Underfull \hbox (badness 1424) in paragraph at lines 69--70
+\T1/times/n/n/10 evidence-collection, decision-delay and state-ful tran-si-tion
+
+ []
+
+
+Underfull \hbox (badness 5681) in paragraph at lines 71--72
+[]\T1/times/b/n/10 RQ3 (mech-a-nism at-tri-bu-tion): \T1/times/n/n/10 How much 
+of any
+ []
+
+
+Underfull \hbox (badness 3503) in paragraph at lines 71--72
+\T1/times/n/n/10 ob-served ef-fect is due to the evidence-acquisition and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+\T1/times/n/n/10 stop-ping pol-icy, language-model in-ter-pre-ta-tion, and
+ []
+
+
+Underfull \hbox (badness 2671) in paragraph at lines 78--79
+[]\T1/times/n/n/10 a stateful-stream-control for-mu-la-tion for cost-aware
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+[]\T1/times/n/n/10 a guarded EcoStream-Agent ar-chi-tec-ture which
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\T1/times/n/n/10 pro-duces a sep-a-ra-tion of bounded lan-guage
+ []
+
+
+Underfull \hbox (badness 4518) in paragraph at lines 80--81
+[]\T1/times/n/n/10 a re-pro-ducible eval-u-a-tion pro-to-col with con-trolled
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+\T1/times/n/n/10 matched ac-tion spaces, strong nu-mer-i-cal and
+ []
+
+
+Underfull \hbox (badness 5607) in paragraph at lines 80--81
+\T1/times/n/n/10 diagnostic-agent base-lines, and ex-plicit ac-count-ing
  []
 
 (sections/literature-review.tex
-<notaglinelogo.png, id=42, 169.38281pt x 42.91031pt>
+<notaglinelogo.png, id=41, 169.38281pt x 42.91031pt>
 File: notaglinelogo.png Graphic file (type png)
 <use notaglinelogo.png>
-Package pdftex.def Info: notaglinelogo.png  used on input line 4.
+Package pdftex.def Info: notaglinelogo.png  used on input line 1.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
  [2 <./notaglinelogo.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+\T1/times/n/n/10 The rel-e-vant lit-er-a-ture re-lates to stream-processing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+\T1/times/n/n/10 foun-da-tions, nu-mer-i-cal re-source op-ti-miza-tion, state-f
+ul
+ []
+
+
+Underfull \hbox (badness 5985) in paragraph at lines 3--4
+\T1/times/n/n/10 re-con-fig-u-ra-tion, fault re-cov-ery, per-for-mance eval-u-a
+-tion,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+\T1/times/n/n/10 as au-to-mat-i-cally novel, but to dif-fer-en-ti-ate be-tween
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+\T1/times/n/n/10 the ca-pa-bil-i-ties that are in-her-ited and the pro-posed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[]|\T1/times/m/n/8 Resource con-fig-u-ra-tion un-der
+ []
+
+
+Underfull \hbox (badness 4403) in paragraph at lines 27--27
+[]|\T1/times/m/n/8 Profiling, work-load fore-cast-ing, and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[]|\T1/times/m/n/8 Multi-configuration re-source
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 27--27
 []|\T1/times/m/n/8 Forecasting plus se-lec-tive pro-fil-ing
  []
 
 
-Underfull \hbox (badness 7308) in paragraph at lines 27--27
-[]|\T1/times/m/n/8 Root-cause rea-son-ing and re-
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[]|\T1/times/m/n/8 Multi-objective Flink
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[]|\T1/times/m/n/8 Ensemble-wide tun-ing,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[]|\T1/times/m/n/8 Runtime bot-tle-neck met-rics and
+ []
+
+
+Underfull \hbox (badness 6876) in paragraph at lines 27--27
+[]|\T1/times/m/n/8 Agent-selected di-ag-nos-tic tools and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[]|\T1/times/m/n/8 Root-cause rea-son-ing and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[]|\T1/times/m/n/8 Tool-assisted mul-ti-modal
  []
 
 
@@ -658,69 +952,456 @@ Underfull \hbox (badness 2426) in paragraph at lines 30--31
 []\T1/times/n/n/10 There are a num-ber of sur-veys that give sup-port-ing
  []
 
+
+Underfull \hbox (badness 5832) in paragraph at lines 30--31
+\T1/times/n/n/10 bases. Liu and Buyya struc-ture re-source man-age-ment
+ []
+
+
+Underfull \hbox (badness 5490) in paragraph at lines 30--31
+\T1/times/n/n/10 and schedul-ing with ser-vice and cost con-straints [[]1[]].
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 35--36
+\T1/times/n/n/10 The can-di-date dis-tinc-tion for EcoStream is re-lated with
+ []
+
+
+Underfull \hbox (badness 6078) in paragraph at lines 37--38
+\T1/times/n/n/10 makes elas-tic-ity pa-ram-e-ters of ser-vices and re-sources
+ []
+
+
+Underfull \hbox (badness 5490) in paragraph at lines 37--38
+\T1/times/n/n/10 avail-able and the RASK agent co-or-di-nates com-pet-ing
+ []
+
+
+Underfull \hbox (badness 2418) in paragraph at lines 39--40
+[]\T1/times/n/n/10 Scarf of-fers a very timely Flink com-para-tor. It is a
+ []
+
+
+Underfull \hbox (badness 5446) in paragraph at lines 39--40
+\T1/times/n/n/10 multi-objective re-in-force-ment learn-ing, and trans-fer-able
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+\T1/times/n/n/10 graph-based mod-els to tune through-put and re-source
+ []
+
+
+Underfull \hbox (badness 5147) in paragraph at lines 39--40
+\T1/times/n/n/10 se-lec-tion. So, learn-ing re-source per-for-mance trade-offs
+ []
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 39--40
+\T1/times/n/n/10 or trans-fer-ring con-fig-u-ra-tion knowl-edge is noth-ing new
+.
+ []
+
+
+Underfull \hbox (badness 3679) in paragraph at lines 41--42
+[]\T1/times/n/n/10 There are also strong prece-dents for pre-dic-tion and
+ []
+
+
+Underfull \hbox (badness 3635) in paragraph at lines 41--42
+\T1/times/n/n/10 Its eval-u-a-tion also dis-tin-guishes re-source sav-ings from
+
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 41--42
+\T1/times/n/n/10 pre-dic-tion and cost-aware ex-ecu-tor place-ment for Spark
+ []
+
+
+Underfull \hbox (badness 7012) in paragraph at lines 43--44
+\T1/times/n/n/10 fed-er-ated re-in-force-ment learn-ing for on-line adap-ta-tio
+n
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+\T1/times/n/n/10 ap-proach, and im-port-ing its dis-tributed ap-proach to
+ []
+
+
+Underfull \hbox (badness 7238) in paragraph at lines 43--44
+\T1/times/n/n/10 a single-host study would not pro-vide an equiv-a-lent
+ []
+
 File: notaglinelogo.png Graphic file (type png)
 <use notaglinelogo.png>
 Package pdftex.def Info: notaglinelogo.png  used on input line 46.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 [3]
-Underfull \hbox (badness 1515) in paragraph at lines 56--57
-\T1/times/n/n/10 Ms-Stream co-or-di-nates group-ing, par-ti-tion-ing and place-
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+[]\T1/times/n/n/10 Evaluation method-ol-ogy is also in-cluded in the
+ []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+\T1/times/n/n/10 com-par-i-son. Shuf-fleBench sep-a-rates the ac-tiv-ity of
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 50--51
+\T1/times/n/n/10 Performance degra-da-tion may not be due to in-ad-e-quate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+\T1/times/n/n/10 of re-source scal-ing, communication-aware sub-graph
+ []
+
+
+Underfull \hbox (badness 2418) in paragraph at lines 50--51
+\T1/times/n/n/10 its up-date cy-cles and ad-justs the slid-ing win-dow [[]14[]]
+.
+ []
+
+
+Underfull \hbox (badness 5359) in paragraph at lines 50--51
+\T1/times/n/n/10 These meth-ods en-cour-age sep-a-rat-ing ca-pac-ity pres-sure
+ []
+
+
+Underfull \vbox (badness 1715) has occurred while \output is active []
+
+
+Underfull \hbox (badness 2057) in paragraph at lines 52--53
+\T1/times/n/n/10 data and de-ter-mines the time of mi-gra-tion, tak-ing into
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+\T1/times/n/n/10 Ms-Stream co-or-di-nates group-ing, par-ti-tion-ing and
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 56--57
+\T1/times/n/n/10 place-ment [[]12[]]. Whereas Ns-Stream is fo-cused on near
+ []
+
+
+Underfull \hbox (badness 2735) in paragraph at lines 56--57
+\T1/times/n/n/10 pub-lished its im-ple-men-ta-tion in Storm [[]33[]]. Both give
+
+ []
+
+
+Underfull \hbox (badness 2809) in paragraph at lines 56--57
+\T1/times/n/n/10 in-for-ma-tion about ca-pac-ity and dis-tri-bu-tion bot-tle-ne
+cks,
  []
 
 File: notaglinelogo.png Graphic file (type png)
 <use notaglinelogo.png>
-Package pdftex.def Info: notaglinelogo.png  used on input line 61.
+Package pdftex.def Info: notaglinelogo.png  used on input line 59.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
 [4]
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+[]\T1/times/n/n/10 Those costs are fur-ther im-pacted by check-point
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+\T1/times/n/n/10 a com-par-i-son of co-or-di-nated, un-co-or-di-nated and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+\T1/times/n/n/10 communication-induced check-point-ing for stream-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+\T1/times/n/n/10 dataflows un-der var-i-ous work-load con-di-tions [[]16[]].
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+\T1/times/n/n/10 Scab-bard is an ex-am-ple of single-node fault-tolerant
+ []
+
+
+Underfull \hbox (badness 4441) in paragraph at lines 60--61
+\T1/times/n/n/10 de-sign whose as-sump-tions are dif-fer-ent than those of
+ []
+
+
+Underfull \hbox (badness 5022) in paragraph at lines 63--64
+\T1/times/n/n/10 au-tonomous op-er-a-tional di-ag-no-sis has been used with
+ []
+
+
+Underfull \hbox (badness 1540) in paragraph at lines 65--66
+\T1/times/n/n/10 rea-son-ing and resource-allocation rec-om-men-da-tions [[]24[
+]].
+ []
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 65--66
+\T1/times/n/n/10 Its in-spected manuscript del-e-gates nu-mer-i-cal fore-cast-i
+ng
+ []
+
+
+Underfull \hbox (badness 3668) in paragraph at lines 65--66
+\T1/times/n/n/10 to an-other com-po-nent and me-di-ates ac-tions through a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+\T1/times/n/n/10 ver-i-fi-ca-tion in-ter-face. Di-ag-no-sis be-fore al-lo-ca-ti
+on, as
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+\T1/times/n/n/10 in-ter-pre-ta-tion are there-fore de-sign fea-tures that were
+ []
+
+
+Underfull \hbox (badness 2027) in paragraph at lines 65--66
+\T1/times/n/n/10 rec-om-men-da-tion, but about whether an-other ob-ser-va-tion
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 67--68
+\T1/times/n/n/10 rel-e-vant only in con-text of the tool con-tracts, feed-back
+ []
+
+
+Underfull \hbox (badness 3503) in paragraph at lines 69--70
+[]\T1/times/n/n/10 The need for a pre-cise com-par-i-son is en-hanced by
+ []
+
+
+Underfull \hbox (badness 4995) in paragraph at lines 69--70
+\T1/times/n/n/10 more re-cent di-ag-no-sis work. The scope pub-lished by
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+\T1/times/n/n/10 Lo-cal-eX-pert trans-lates met-rics, logs and traces into
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+\T1/times/n/n/10 fail-ures [[]37[]]. MA-RCA dis-tin-guishes di-ag-nos-tic tasks
+
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 69--70
+\T1/times/n/n/10 and adds re-trieval ground-ing and run-time val-i-da-tion of
+ []
+
+
+Underfull \hbox (badness 2393) in paragraph at lines 69--70
+\T1/times/n/n/10 ev-i-dence, spe-cial-ist agents and hy-poth-e-sis check-ing ar
+e
+ []
+
+
+Underfull \hbox (badness 3769) in paragraph at lines 69--70
+\T1/times/n/n/10 ex-ist-ing ca-pa-bil-i-ties. Rec-on-cile in de-tail with TAMO'
+s
+ []
+
+
+Underfull \hbox (badness 3364) in paragraph at lines 71--72
+\T1/times/n/n/10 rank-ing alone does not as-sess the ben-e-fit of a re-pair
+ []
+
+
+Underfull \hbox (badness 2707) in paragraph at lines 73--74
+[]\T1/times/n/n/10 Multimodal di-ag-no-sis is ear-lier than the lat-est LLM
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 73--74
+\T1/times/n/n/10 agents. Nezha con-ducts fine-grained root cause anal-y-sis
+ []
+
+
+Underfull \hbox (badness 5417) in paragraph at lines 73--74
+\T1/times/n/n/10 in-for-ma-tion, event rep-re-sen-ta-tions, and graph learn-ing
+,
+ []
+
+
+Underfull \hbox (badness 4505) in paragraph at lines 73--74
+\T1/times/n/n/10 to help lo-cal-ize faulty in-stances, and clas-si-fi-ca-tion o
+f
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+\T1/times/n/n/10 action-sensitive ac-qui-si-tion, not just a single-metric
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 75--76
+\T1/times/n/n/10 prob-lem out-side the field of op-er-a-tional di-ag-no-sis. Th
+e
+ []
+
+
+Underfull \hbox (badness 4036) in paragraph at lines 78--79
+\T1/times/n/n/10 de-tails are not suf-fi-cient to al-low for an in-de-pen-dent
+ []
+
+
+Underfull \hbox (badness 3942) in paragraph at lines 78--79
+\T1/times/n/n/10 physical-energy as-sess-ment. So re-source al-lo-ca-tion and
+ []
+
 File: notaglinelogo.png Graphic file (type png)
 <use notaglinelogo.png>
-Package pdftex.def Info: notaglinelogo.png  used on input line 81.
+Package pdftex.def Info: notaglinelogo.png  used on input line 79.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
- [5])
-Underfull \hbox (badness 2635) in paragraph at lines 88--85
-\T1/times/n/n/10 management, fault-tolerance, self-adaptation, bench-mark-
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+\T1/times/n/n/10 with a grid-oriented ap-proach with power con-trol,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+\T1/times/n/n/10 paus-ing and re-source re-al-lo-ca-tion, while ad-her-ing to
+ []
+
+
+Underfull \hbox (badness 5147) in paragraph at lines 80--81
+\T1/times/n/n/10 physical-measurement, not a di-rect streaming-controller
+ []
+
+
+Underfull \hbox (badness 5403) in paragraph at lines 80--81
+\T1/times/n/n/10 exact-query eval-u-a-tion main-tains se-man-tics along with
+ []
+
+
+Underfull \hbox (badness 3536) in paragraph at lines 80--81
+\T1/times/n/n/10 con-sumed CPU, in-stan-ta-neous power, to-tal en-ergy and
+ []
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 80--81
+\T1/times/n/n/10 suit-able phys-i-cal in-stru-men-ta-tion, the present study wi
+ll
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 83--84
+\T1/times/n/n/10 con-strained op-ti-miza-tion, se-lec-tive pro-fil-ing, au-tono
+mous
+ []
+
+
+Underfull \hbox (badness 2119) in paragraph at lines 83--84
+\T1/times/n/n/10 study: un-der what con-di-tions does an ex-tra op-er-a-tional
+ []
+
+
+Underfull \hbox (badness 5741) in paragraph at lines 83--84
+\T1/times/n/n/10 ob-ser-va-tion im-prove a state-ful in-ter-ven-tion enough to
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 85--86
+\T1/times/n/n/10 and the con-tri-bu-tion of lan-guage in-ter-pre-ta-tion and th
+e
+ []
+
+)
+Underfull \hbox (badness 7468) in paragraph at lines 88--87
+\T1/times/n/n/10 This is a spe-cific com-par-i-son and not a sys-tem-atic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--87
+\T1/times/n/n/10 re-view. The forty one pa-per bib-li-og-ra-phy fo-cuses
+ []
+
+
+Underfull \hbox (badness 6808) in paragraph at lines 88--87
+\T1/times/n/n/10 on re-cent pa-pers deal-ing with meth-ods and in-cludes
+ []
+
+
+Underfull \hbox (badness 6961) in paragraph at lines 88--87
+\T1/times/n/n/10 older pub-lished work when it pro-vides a foun-da-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--87
+\T1/times/n/n/10 in the ar-eas of resource-management, fault-tolerance,
+ []
+
+
+Underfull \hbox (badness 7012) in paragraph at lines 88--87
+\T1/times/n/n/10 self-adaptation, bench-mark-ing, multimodal-diagnosis, or
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 88--87
+\T1/times/n/n/10 fin-ished pub-lished records re-main un-re-solved. TAMO is
+ []
+
+
+Underfull \hbox (badness 1789) in paragraph at lines 88--87
+\T1/times/n/n/10 only), and with-out im-ported preprint in-for-ma-tion which
+ []
+
+
+Underfull \hbox (badness 7379) in paragraph at lines 88--87
+\T1/times/n/n/10 them as EcoStream find-ings. Ac-cess and ver-i-fi-ca-tion
  []
 
 (D:\1.msc\Big-Data\paper\build\main.bbl
 LaTeX Font Info:    Calculating math sizes for size <7.61> on input line 29.
-
-Underfull \vbox (badness 3872) has occurred while \output is active []
-
 File: notaglinelogo.png Graphic file (type png)
 <use notaglinelogo.png>
-Package pdftex.def Info: notaglinelogo.png  used on input line 171.
+Package pdftex.def Info: notaglinelogo.png  used on input line 130.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
  [6])
 File: bullet.png Graphic file (type png)
 <use bullet.png>
-Package pdftex.def Info: bullet.png  used on input line 88.
+Package pdftex.def Info: bullet.png  used on input line 90.
 (pdftex.def)             Requested size: 5.0pt x 14.6871pt.
 File: notaglinelogo.png Graphic file (type png)
 <use notaglinelogo.png>
-Package pdftex.def Info: notaglinelogo.png  used on input line 89.
+Package pdftex.def Info: notaglinelogo.png  used on input line 91.
 (pdftex.def)             Requested size: 91.32pt x 23.1352pt.
-
-[7] (D:\1.msc\Big-Data\paper\build\main.aux)
+ [7]
+(D:\1.msc\Big-Data\paper\build\main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 11864 strings out of 467871
- 185744 string characters out of 5416925
- 623601 words of memory out of 5000000
- 40507 multiletter control sequences out of 15000+600000
- 761969 words of font info for 190 fonts, out of 8000000 for 9000
+ 11870 strings out of 467871
+ 185847 string characters out of 5416925
+ 628601 words of memory out of 5000000
+ 40512 multiletter control sequences out of 15000+600000
+ 764941 words of font info for 195 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,79p,1623b,639s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,13n,79p,1623b,639s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Software/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmsy7.pfb><./t1-formata-bold.pfb><./t1-formata-condmedium.pfb><./t1-formata-
 medium.pfb><./t1-formata-mediumitalic.pfb><./t1-formata-regular.pfb><./t1-giova
 nnistd-bookitalic.pfb><./t1-times-bold.pfb><./t1-times-italic.pfb><./t1-times.p
 fb>
-Output written on D:\1.msc\Big-Data\paper\build\main.pdf (7 pages, 303614 bytes
+Output written on D:\1.msc\Big-Data\paper\build\main.pdf (7 pages, 303438 bytes
 ).
 PDF statistics:
  297 PDF objects out of 1000 (max. 8388607)
