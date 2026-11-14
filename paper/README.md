@@ -4,7 +4,7 @@ This is an **unpublished pre-experiment working draft**, not a finished or submi
 
 ## Files
 
-- `main.tex`: main manuscript, using the official IEEE Access class. It contains exactly two top-level sections: an expanded introduction with background, problem definition, research questions and planned contributions, then the literature review. References follow directly.
+- `main.tex`: main manuscript, using the official IEEE Transactions class (`IEEEtran.cls`). It contains exactly two top-level sections: an expanded introduction with background, problem definition, research questions and planned contributions, then the literature review. References follow directly.
 - `sections/literature-review.tex`: thematic literature review of 41 published papers; one selective table positions the ten closest technical precedents, while the remaining foundation and cross-cutting papers are integrated in the prose.
 - `references.bib`: 41 distinct published references with DOI fields and visible DOI URLs; no ordinary arXiv/preprint entry was added.
 - `main.pdf`: compiled working draft, generated after source/citation checks.

@@ -1,4 +1,4 @@
-\documentclass[nolineno]{ieeeaccess}
+\documentclass[journal]{IEEEtran}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{cite}
@@ -8,48 +8,29 @@
 \usepackage{booktabs,tabularx,array}
 \usepackage[hidelinks,bookmarks=false]{hyperref}
 
-% Preserve the official class and its header layout, but do not present this
-% unpublished working draft as an article with an assigned volume/copyright.
-\makeatletter
-\newcommand{\ecostreamdraftfooters}{%
-  \def\@oddfoot{\hbox to \textwidth{\footervolfont Unpublished working draft\hfill\footerpagefont\thepage}}%
-  \let\@evenfoot\@oddfoot}
-\let\ecostreamoriginaltitlepage\ps@titlepage
-\def\ps@titlepage{\ecostreamoriginaltitlepage\ecostreamdraftfooters}
-\let\ecostreamoriginalheadings\ps@headings
-\def\ps@headings{\ecostreamoriginalheadings\ecostreamdraftfooters}
-\makeatother
-\pagestyle{headings}
-\setlength{\titlewidth}{\dimexpr\textwidth-2.96pc-3.15pc\relax}
-\setlength{\abstractwidth}{\titlewidth}
-\addtolength{\abstractwidth}{-2.39mm}
+\providecommand{\IEEEPARstart}[2]{#1#2}
 \hypersetup{pdftitle={EcoStream-Agent: Action-Sensitive Evidence Acquisition for Stateful Stream Control},pdfauthor={}}
-\emergencystretch=1.5em
-\hyphenpenalty=10000
-\exhyphenpenalty=10000
 
 \begin{document}
-\history{Pre-experiment working draft, updated 14 November 2026. Not submitted or published.}
-\doi{Not assigned (unpublished draft).}
 \title{EcoStream-Agent: Action-Sensitive Evidence Acquisition for Stateful Stream Control}
+
 \author{Author details pending}
-\address{Names, affiliations, and author order have not yet been supplied.}
-\corresp{Correspondence details remain to be supplied by the authors.}
-\markboth{EcoStream-Agent: Unpublished Working Draft}{EcoStream-Agent: Unpublished Working Draft}
+
+\markboth{EcoStream-Agent}{EcoStream-Agent}
+
+\maketitle
 
 \begin{abstract}
-Stateful stream-processing systems need to adapt resource allocations while preserving result correctness, service latency and recovery requirements. Even with that information, other diagnostic information can be used to determine if a resource is the problem or if another bottle neck exists, but that information must be collected and analyzed, and there is an operational cost to do so. Reconfiguration can cause additional disruptions during the transfer and/or restoration of state, and processing of accumulated events. In this work, a supervisory controller called EcoStream-Agent is proposed which acquires the operational evidence based on its effect on the intervention decision. The design is planned to split up the interpretation of diagnostic evidence with the numerical estimation of the effect of actions and the transition costs, and to only execute supported interventions. The research question is posed to determine if action sensitive investigation is able to provide an improvement in the efficiency of resources which is worth the cost of collection and delay overheads. The planned evaluation is done with controlled stateful streaming workloads, common action spaces, numerical and diagnostic-agent baselines, deterministic evidence-processing alternatives, and measurements of allocated resources, service quality, backlog clearance, and controller cost. This is a draft copy of the pre-experiments literature review; results of implementation, experimental results and empirical conclusions are yet to be seen. No publication novelty nor any physical energy savings has been proven.
+Stateful stream-processing systems need to adapt resource allocations while preserving result correctness, service latency and recovery requirements. Even with that information, other diagnostic information can be used to determine if a resource is the problem or if another bottle neck exists, but that information must be collected and analyzed, and there is an operational cost to do so. Reconfiguration can cause additional disruptions during the transfer and/or restoration of state, and processing of accumulated events. In this work, a supervisory controller called EcoStream-Agent is proposed which acquires the operational evidence based on its effect on the intervention decision. The design is planned to split up the interpretation of diagnostic evidence with the numerical estimation of the effect of actions and the transition costs, and to only execute supported interventions. The research question is posed to determine if action sensitive investigation is able to provide an improvement in the efficiency of resources which is worth the cost of collection and delay overheads. The planned evaluation is done with controlled stateful streaming workloads, common action spaces, numerical and diagnostic-agent baselines, deterministic evidence-processing alternatives, and measurements of allocated resources, service quality, backlog clearance, and controller cost.
 \end{abstract}
 
-\begin{keywords}
+\begin{IEEEkeywords}
 Agentic AI, diagnostic evidence acquisition, resource efficiency, stateful stream processing, systems optimization.
-\end{keywords}
-\titlepgskip=-15pt
-\maketitle
+\end{IEEEkeywords}
 
 \section{Introduction}
 \label{sec:introduction}
-Distributed stream-processing systems continuously ingest high-rate event sequences and transform them under low-latency requirements. Many streaming operators provide stateful processing for windows, joins, aggregations, and event-time coordination that is not provided by stateless request processing. This state has consequences for adaptation: changing parallelism or placement may necessitate a state move or checkpoint restore, record reordering, or replay. Elasticity, scheduling, state consistency and fault tolerance are not independent concerns, but are interrelated when it comes to stream-processing architecture and resource management~\cite{liu2020resource,cardellini2022adaptation,fragkoulis2024evolution}. Studies of transactional and fault-tolerance also reveal that correctness is dependent on the interplay between processing semantics, state management, checkpointing and recovery protocol~\cite{wang2021faulttolerance,zhang2023transactional}.
+\IEEEPARstart{D}{istributed} stream-processing systems continuously ingest high-rate event sequences and transform them under low-latency requirements. Many streaming operators provide stateful processing for windows, joins, aggregations, and event-time coordination that is not provided by stateless request processing. This state has consequences for adaptation: changing parallelism or placement may necessitate a state move or checkpoint restore, record reordering, or replay. Elasticity, scheduling, state consistency and fault tolerance are not independent concerns, but are interrelated when it comes to stream-processing architecture and resource management~\cite{liu2020resource,cardellini2022adaptation,fragkoulis2024evolution}. Studies of transactional and fault-tolerance also reveal that correctness is dependent on the interplay between processing semantics, state management, checkpointing and recovery protocol~\cite{wang2021faulttolerance,zhang2023transactional}.
 
 The operator is required to provide sufficient capacity to support the offered load, meet latency goals and bounce back from disturbances without infinite accumulation of input. Backlog is received input that has not been processed and a service level objective (SLO) is an operational requirement, like a latency, availability, or recovery limit. Therefore, restoring a job is not the same as restoring service: if post-recovery processing capacity only matches the input arrival rate, the recovered job may remain permanently behind. Recovery-aware controllers, as well as controllers and optimizers for multiple configurations, already take care of significant aspects of this resource-service-quality tradeoff~\cite{geldenhuys2022phoebe,geldenhuys2024demeter}. State-preserving reconfiguration, partitioning, multi-objective tuning, heterogeneous-resource selection and predictive scaling are all features of more recent controllers~\cite{pfister2024daedalus,russorusso2023hierarchical,pedratscher2025streamline,liu2026scarf}.
 
@@ -81,11 +62,11 @@ Subject to implementation and empirical validation, the study aims to make the f
     \item an empirical characterization of conditions under which agentic investigation improves operational decisions and conditions under which cheap telemetry, deterministic logic, or direct numerical control is sufficient.
 \end{itemize}
 
-These are research products that are anticipated to occur, but not necessarily completed research products. The problem formulation and comparative literature review are present in the present manuscript, the controller, frozen protocol, measurements and conclusions supported by evidence are yet to be done. The working title reflects the intended research direction and does not imply that any potential savings in resources and/or novelty of publication were achieved.
+The remainder of this paper presents a problem formulation and comparative literature review positioning the proposed approach against recent technical precedents.
 
 \input{sections/literature-review}
 
 \bibliographystyle{IEEEtran}
 \bibliography{references}
-\EOD
+
 \end{document}
