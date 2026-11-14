@@ -1,0 +1,89 @@
+\documentclass[nolineno]{ieeeaccess}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{cite}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{booktabs,tabularx,array}
+\usepackage[hidelinks,bookmarks=false]{hyperref}
+
+% Preserve the official class and its header layout, but do not present this
+% unpublished working draft as an article with an assigned volume/copyright.
+\makeatletter
+\newcommand{\ecostreamdraftfooters}{%
+  \def\@oddfoot{\hbox to \textwidth{\footervolfont Unpublished working draft\hfill\footerpagefont\thepage}}%
+  \let\@evenfoot\@oddfoot}
+\let\ecostreamoriginaltitlepage\ps@titlepage
+\def\ps@titlepage{\ecostreamoriginaltitlepage\ecostreamdraftfooters}
+\let\ecostreamoriginalheadings\ps@headings
+\def\ps@headings{\ecostreamoriginalheadings\ecostreamdraftfooters}
+\makeatother
+\pagestyle{headings}
+\setlength{\titlewidth}{\dimexpr\textwidth-2.96pc-3.15pc\relax}
+\setlength{\abstractwidth}{\titlewidth}
+\addtolength{\abstractwidth}{-2.39mm}
+\hypersetup{pdftitle={EcoStream-Agent: Action-Sensitive Evidence Acquisition for Stateful Stream Control},pdfauthor={}}
+\emergencystretch=1.5em
+
+\begin{document}
+\history{Pre-experiment working draft, updated 14 November 2026. Not submitted or published.}
+\doi{Not assigned (unpublished draft).}
+\title{EcoStream-Agent: Action-Sensitive Evidence Acquisition for Stateful Stream Control}
+\author{Author details pending}
+\address{Names, affiliations, and author order have not yet been supplied.}
+\corresp{Correspondence details remain to be supplied by the authors.}
+\markboth{EcoStream-Agent: Unpublished Working Draft}{EcoStream-Agent: Unpublished Working Draft}
+
+\begin{abstract}
+Stateful stream-processing systems must adapt resource allocations while preserving result correctness, service latency, and recovery requirements. Additional diagnostic evidence can help a controller distinguish resource pressure from other bottlenecks, but gathering evidence and waiting for analysis also incur operational costs. Reconfiguration can introduce further disruption while state is transferred or restored and accumulated events are processed. This study proposes EcoStream-Agent, a supervisory controller that acquires operational evidence according to its expected effect on the intervention decision. The planned design separates language-model interpretation of diagnostic evidence from numerical estimation of action effects and transition costs, with execution restricted to supported interventions. The research question is whether action-sensitive investigation improves resource efficiency sufficiently to outweigh collection and delay overhead. The intended evaluation uses controlled stateful streaming workloads, common action spaces, numerical and diagnostic-agent baselines, deterministic evidence-processing alternatives, and measurements of allocated resources, service quality, backlog clearance, and controller cost. This pre-experiment draft develops the comparative literature review; implementation, experimental results, and empirical conclusions remain pending. Neither publication novelty nor physical energy savings have been established.
+\end{abstract}
+
+\begin{keywords}
+Agentic AI, diagnostic evidence acquisition, resource efficiency, stateful stream processing, systems optimization.
+\end{keywords}
+\titlepgskip=-15pt
+\maketitle
+
+\section{Introduction}
+\label{sec:introduction}
+Distributed stream-processing systems continuously ingest high-rate event sequences and transform them under low-latency requirements. Unlike stateless request processing, many streaming operators retain application state for windows, joins, aggregations, and event-time coordination. This state makes adaptation consequential: changing parallelism or placement can require state movement, checkpoint restoration, record reordering, or replay. Surveys of stream-processing architecture and resource management show that elasticity, scheduling, state consistency, and fault tolerance are tightly coupled rather than independent concerns~\cite{liu2020resource,cardellini2022adaptation,fragkoulis2024evolution}. Transactional and fault-tolerance studies further show that correctness depends on the interaction among processing semantics, state management, checkpointing, and recovery protocol~\cite{wang2021faulttolerance,zhang2023transactional}.
+
+An operator must provision enough capacity to sustain offered load, satisfy latency objectives, and recover from disturbances without unbounded accumulation of input. A \emph{backlog} is input that has arrived but has not yet been processed; a \emph{service-level objective} (SLO) is an operational requirement such as a latency, availability, or recovery limit. Restoring a job is therefore not the same as restoring service: if post-recovery capacity only matches the arrival rate, the recovered job may remain permanently behind. Recovery-aware controllers and multi-configuration optimizers already address important parts of this resource--service-quality trade-off~\cite{geldenhuys2022phoebe,geldenhuys2024demeter}. More recent controllers add predictive scaling, heterogeneous-resource selection, multi-objective tuning, partitioning, and state-preserving reconfiguration~\cite{pfister2024daedalus,russorusso2023hierarchical,pedratscher2025streamline,liu2026scarf}.
+
+The operational signal preceding an SLO violation is often ambiguous. A latency increase can arise from insufficient capacity, load skew, communication overhead, a slow worker, checkpoint interference, state transfer, or a recovering backlog. These causes may require different interventions, and some cannot be repaired by merely adding resources. Stream schedulers and partitioners already address communication and skew~\cite{wu2025msstream,fan2026rastream,ren2026sapdpo}, while recovery and checkpoint research demonstrates that the disruption of an intervention depends on state size, protocol, and recovery scope~\cite{theodorakis2021scabbard,siachamis2024checkmate,takdir2025localrecovery,qing2025drrs}. A controller that ignores these distinctions may overprovision, execute a harmful reconfiguration, or spend time investigating an incident for which no supported action exists.
+
+Modern observability systems expose metrics, logs, traces, topology, configuration history, and job-level diagnostic tools. Agentic root-cause-analysis systems can decide which tools to call, combine multiple modalities, and generate diagnostic conclusions~\cite{wang2024rcagent,zhang2023diagfusion,yu2023nezha,zhang2025tamo}. However, gathering and interpreting more evidence is not free. A query can consume API or compute capacity; a longer diagnostic sequence delays intervention; and additional context can increase language-model cost without changing the final action. Conversely, stopping too early can select the wrong repair. Diagnostic confidence alone is therefore an incomplete control objective: the value of evidence depends on whether it changes a feasible intervention and improves the resulting operational outcome.
+
+EcoStream-Agent is proposed to study this decision boundary. A \emph{diagnostic observation} obtains evidence about the current operating condition, whereas an \emph{intervention} changes the job or its allocated resources. The study also separates selecting an intervention from executing it. The proposed controller would use language-model reasoning only to interpret bounded diagnostic evidence and formulate supported hypotheses; a numerical decision layer would estimate action effects, SLO risk, resource use, and transition cost; and a guard would restrict execution to a predefined action catalogue. An unsupported incident would produce no-change or escalation rather than an invented repair.
+
+The central problem is to decide whether the expected improvement in intervention choice from another observation exceeds its collection cost and the harm caused by waiting. The planned decision rule will treat correctness and declared SLOs as constraints, then compare feasible actions using time-integrated resource use and measured transition or recovery overhead. Evidence-collection latency, tool use, and agent/API cost will be charged to the same operational episode and also reported separately; any scalar trade-off used by the controller will be declared and sensitivity-tested. This framing differs from maximizing diagnostic accuracy in isolation: two hypotheses need not be distinguished if they lead to the same safe action, while a low-probability hypothesis can matter when its corresponding incorrect action is expensive. The study will test this distinction under matched evidence tools and action spaces rather than assuming that an agentic architecture is beneficial.
+
+\subsection{Research Questions}
+The study is organized around four research questions.
+
+\textbf{RQ1 (decision value):} Does action-sensitive evidence acquisition select better interventions than a fixed-budget diagnostic agent, deterministic evidence processing, and numerical configuration controllers when all methods receive the same initial telemetry and may execute the same actions?
+
+\textbf{RQ2 (operational efficiency):} After charging for evidence collection, decision delay, and stateful transition cost, does EcoStream-Agent reduce allocated and consumed resources while preserving result correctness, latency SLOs, and backlog-clearance requirements?
+
+\textbf{RQ3 (mechanism attribution):} How much of any observed effect is attributable to the evidence-acquisition and stopping policy, language-model interpretation, and transition-cost model? This question requires component ablations rather than comparison of only the complete system.
+
+\textbf{RQ4 (robustness and limits):} Under which workload shifts, state sizes, skew patterns, recovery conditions, and unsupported incidents does the proposed policy help, become unnecessary, or fail? The evaluation will record unsafe proposals, unnecessary actions, escalation behavior, and investigation overhead in addition to average performance.
+
+\subsection{Planned Contributions}
+Subject to implementation and empirical validation, the study is designed to make the following contributions:
+\begin{itemize}
+    \item a stateful-stream-control formulation for cost-aware acquisition and stopping, where evidence is valued by its expected effect on a feasible intervention rather than by confidence alone;
+    \item a guarded EcoStream-Agent architecture that separates bounded language interpretation, numerical action scoring, transition-cost estimation, and supported execution;
+    \item a reproducible evaluation protocol with controlled stateful workloads, correctness and backlog oracles, matched action spaces, strong numerical and diagnostic-agent baselines, and explicit accounting for controller, evidence, and reconfiguration overhead; and
+    \item an empirical characterization of the conditions under which agentic investigation improves operational decisions and the conditions under which cheap telemetry, deterministic logic, or direct numerical control is sufficient.
+\end{itemize}
+
+These are planned study outputs, not completed findings. The present manuscript contains the problem formulation and comparative literature review; the controller, frozen protocol, measurements, and evidence-backed conclusions remain pending. The working title states the intended research direction and does not imply that resource savings or publication novelty have already been established.
+
+\input{sections/literature-review}
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+\EOD
+\end{document}

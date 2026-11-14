@@ -1,0 +1,963 @@
+[
+  {
+    "doi": "10.1109/tsc.2026.3707982",
+    "title": "ORACL: Optimized Reasoning for Autoscaling via Chain of Thought With LLMs for Microservices",
+    "authors": [
+      {
+        "given": "Haoyu",
+        "family": "Bai"
+      },
+      {
+        "given": "Muhammed Tawfiqul",
+        "family": "Islam"
+      },
+      {
+        "given": "Minxian",
+        "family": "Xu"
+      },
+      {
+        "given": "Rajkumar",
+        "family": "Buyya"
+      }
+    ],
+    "venue": "IEEE Transactions on Services Computing",
+    "type": "journal-article",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          9
+        ]
+      ]
+    },
+    "online": null,
+    "print": {
+      "date-parts": [
+        [
+          2026,
+          9
+        ]
+      ]
+    },
+    "volume": "19",
+    "issue": "5",
+    "page": "3540-3553",
+    "article": null,
+    "resource": "https://ieeexplore.ieee.org/document/11585726/",
+    "updates": null,
+    "key": "bai2026oracl",
+    "cited_year": 2026,
+    "retrieved_at": "2026-10-13"
+  },
+  {
+    "doi": "10.1145/3627673.3680016",
+    "title": "RCAgent: Cloud Root Cause Analysis by Autonomous Agents with Tool-Augmented Large Language Models",
+    "authors": [
+      {
+        "given": "Zefan",
+        "family": "Wang"
+      },
+      {
+        "given": "Zichuan",
+        "family": "Liu"
+      },
+      {
+        "given": "Yingying",
+        "family": "Zhang"
+      },
+      {
+        "given": "Aoxiao",
+        "family": "Zhong"
+      },
+      {
+        "given": "Jihong",
+        "family": "Wang"
+      },
+      {
+        "given": "Fengbin",
+        "family": "Yin"
+      },
+      {
+        "given": "Lunting",
+        "family": "Fan"
+      },
+      {
+        "given": "Lingfei",
+        "family": "Wu"
+      },
+      {
+        "given": "Qingsong",
+        "family": "Wen"
+      }
+    ],
+    "venue": "Proceedings of the 33rd ACM International Conference on Information and Knowledge Management",
+    "type": "proceedings-article",
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          21
+        ]
+      ]
+    },
+    "online": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          21
+        ]
+      ]
+    },
+    "print": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          21
+        ]
+      ]
+    },
+    "volume": null,
+    "issue": null,
+    "page": "4966-4974",
+    "article": null,
+    "resource": "https://dl.acm.org/doi/10.1145/3627673.3680016",
+    "updates": null,
+    "key": "wang2024rcagent",
+    "cited_year": 2024,
+    "retrieved_at": "2026-10-13"
+  },
+  {
+    "doi": "10.1145/3629526.3645048",
+    "title": "Demeter: Resource-Efficient Distributed Stream Processing under Dynamic Loads with Multi-Configuration Optimization",
+    "authors": [
+      {
+        "given": "Morgan K.",
+        "family": "Geldenhuys"
+      },
+      {
+        "given": "Dominik",
+        "family": "Scheinert"
+      },
+      {
+        "given": "Odej",
+        "family": "Kao"
+      },
+      {
+        "given": "Lauritz",
+        "family": "Thamsen"
+      }
+    ],
+    "venue": "Proceedings of the 15th ACM/SPEC International Conference on Performance Engineering",
+    "type": "proceedings-article",
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          7
+        ]
+      ]
+    },
+    "online": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          7
+        ]
+      ]
+    },
+    "print": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          7
+        ]
+      ]
+    },
+    "volume": null,
+    "issue": null,
+    "page": "142-153",
+    "article": null,
+    "resource": "https://dl.acm.org/doi/10.1145/3629526.3645048",
+    "updates": null,
+    "key": "geldenhuys2024demeter",
+    "cited_year": 2024,
+    "retrieved_at": "2026-10-13"
+  },
+  {
+    "doi": "10.1016/j.iot.2025.101731",
+    "title": "STREAMLINE: Dynamic and Resource-Efficient Auto-Tuning of Stream Processing Data Pipeline Ensembles",
+    "authors": [
+      {
+        "given": "Stefan",
+        "family": "Pedratscher"
+      },
+      {
+        "given": "Zahra Najafabadi",
+        "family": "Samani"
+      },
+      {
+        "given": "Juan Aznar",
+        "family": "Poveda"
+      },
+      {
+        "given": "Thomas",
+        "family": "Fahringer"
+      },
+      {
+        "given": "Marlon",
+        "family": "Etheredge"
+      },
+      {
+        "given": "Abolfazl",
+        "family": "Younesi"
+      },
+      {
+        "given": "Juan Jose Durillo",
+        "family": "Barrionuevo"
+      },
+      {
+        "given": "Peter",
+        "family": "Thoman"
+      }
+    ],
+    "venue": "Internet of Things",
+    "type": "journal-article",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          11
+        ]
+      ]
+    },
+    "online": null,
+    "print": {
+      "date-parts": [
+        [
+          2025,
+          11
+        ]
+      ]
+    },
+    "volume": "34",
+    "issue": null,
+    "page": "101731",
+    "article": "101731",
+    "resource": "https://linkinghub.elsevier.com/retrieve/pii/S2542660525002458",
+    "updates": null,
+    "key": "pedratscher2025streamline",
+    "cited_year": 2025,
+    "retrieved_at": "2026-10-13"
+  },
+  {
+    "doi": "10.1109/tcc.2025.3538512",
+    "title": "A Cost-Aware Operator Migration Approach for Distributed Stream Processing System",
+    "authors": [
+      {
+        "given": "Jiawei",
+        "family": "Tan"
+      },
+      {
+        "given": "Zhuo",
+        "family": "Tang"
+      },
+      {
+        "given": "Wentong",
+        "family": "Cai"
+      },
+      {
+        "given": "Wen Jun",
+        "family": "Tan"
+      },
+      {
+        "given": "Xiong",
+        "family": "Xiao"
+      },
+      {
+        "given": "Jiapeng",
+        "family": "Zhang"
+      },
+      {
+        "given": "Yi",
+        "family": "Gao"
+      },
+      {
+        "given": "Kenli",
+        "family": "Li"
+      }
+    ],
+    "venue": "IEEE Transactions on Cloud Computing",
+    "type": "journal-article",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          1
+        ]
+      ]
+    },
+    "online": null,
+    "print": {
+      "date-parts": [
+        [
+          2025,
+          1
+        ]
+      ]
+    },
+    "volume": "13",
+    "issue": "1",
+    "page": "441-454",
+    "article": null,
+    "resource": "https://ieeexplore.ieee.org/document/10872811/",
+    "updates": null,
+    "key": "tan2025caom",
+    "cited_year": 2025,
+    "retrieved_at": "2026-10-13"
+  },
+  {
+    "doi": "10.1109/tsc.2026.3711142",
+    "title": "Multi-Dimensional Autoscaling of Stream Processing Services on Edge Devices",
+    "authors": [
+      {
+        "given": "Boris",
+        "family": "Sedlak"
+      },
+      {
+        "given": "Philipp",
+        "family": "Raith"
+      },
+      {
+        "given": "Andrea",
+        "family": "Morichetta"
+      },
+      {
+        "given": "Víctor Casamayor",
+        "family": "Pujol"
+      },
+      {
+        "given": "Schahram",
+        "family": "Dustdar"
+      }
+    ],
+    "venue": "IEEE Transactions on Services Computing",
+    "type": "journal-article",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          9
+        ]
+      ]
+    },
+    "online": null,
+    "print": {
+      "date-parts": [
+        [
+          2026,
+          9
+        ]
+      ]
+    },
+    "volume": "19",
+    "issue": "5",
+    "page": "3510-3523",
+    "article": null,
+    "resource": "https://ieeexplore.ieee.org/document/11599677/",
+    "updates": null,
+    "key": "sedlak2026mudap",
+    "cited_year": 2026,
+    "retrieved_at": "2026-10-13"
+  },
+  {
+    "doi": "10.1109/icde65448.2025.00286",
+    "title": "Towards Fine-Grained Scalability for Stateful Stream Processing Systems",
+    "authors": [
+      {
+        "given": "Yunfan",
+        "family": "Qing"
+      },
+      {
+        "given": "Wenli",
+        "family": "Zheng"
+      }
+    ],
+    "venue": "2025 IEEE 41st International Conference on Data Engineering (ICDE)",
+    "type": "proceedings-article",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          19
+        ]
+      ]
+    },
+    "online": null,
+    "print": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          19
+        ]
+      ]
+    },
+    "volume": null,
+    "issue": null,
+    "page": "3835-3848",
+    "article": null,
+    "resource": "https://ieeexplore.ieee.org/document/11113181/",
+    "updates": null,
+    "key": "qing2025drrs",
+    "cited_year": 2025,
+    "retrieved_at": "2026-10-13"
+  },
+  {
+    "doi": "10.1016/j.future.2025.108119",
+    "title": "A fine-grained task scheduling strategy for resource auto-scaling over fluctuating data streams",
+    "authors": [
+      {
+        "given": "Yinuo",
+        "family": "Fan"
+      },
+      {
+        "given": "Dawei",
+        "family": "Sun"
+      },
+      {
+        "given": "Minghui",
+        "family": "Wu"
+      },
+      {
+        "given": "Shang",
+        "family": "Gao"
+      },
+      {
+        "given": "Rajkumar",
+        "family": "Buyya"
+      }
+    ],
+    "venue": "Future Generation Computer Systems",
+    "type": "journal-article",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          2
+        ]
+      ]
+    },
+    "online": null,
+    "print": {
+      "date-parts": [
+        [
+          2026,
+          2
+        ]
+      ]
+    },
+    "volume": "175",
+    "issue": null,
+    "page": "108119",
+    "article": "108119",
+    "resource": "https://linkinghub.elsevier.com/retrieve/pii/S0167739X25004133",
+    "updates": null,
+    "key": "fan2026rastream",
+    "cited_year": 2026,
+    "retrieved_at": "2026-10-13"
+  },
+  {
+    "doi": "10.1016/j.future.2026.108520",
+    "title": "Stream-aware and parameter self-adaptive data partitioning algorithm for fluctuating data stream processing",
+    "authors": [
+      {
+        "given": "Yifan",
+        "family": "Ren"
+      },
+      {
+        "given": "Hongjian",
+        "family": "Li"
+      }
+    ],
+    "venue": "Future Generation Computer Systems",
+    "type": "journal-article",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          9
+        ]
+      ]
+    },
+    "online": null,
+    "print": {
+      "date-parts": [
+        [
+          2026,
+          9
+        ]
+      ]
+    },
+    "volume": "182",
+    "issue": null,
+    "page": "108520",
+    "article": "108520",
+    "resource": "https://linkinghub.elsevier.com/retrieve/pii/S0167739X26001548",
+    "updates": null,
+    "key": "ren2026sapdpo",
+    "cited_year": 2026,
+    "retrieved_at": "2026-10-13"
+  },
+  {
+    "doi": "10.1016/j.future.2024.107681",
+    "title": "Energy-aware scheduling and two-tier coordinated load balancing for streaming applications in apache flink",
+    "authors": [
+      {
+        "given": "Hongjian",
+        "family": "Li"
+      },
+      {
+        "given": "Junlin",
+        "family": "Li"
+      },
+      {
+        "given": "Xiaolin",
+        "family": "Duan"
+      },
+      {
+        "given": "Jianglin",
+        "family": "Xia"
+      }
+    ],
+    "venue": "Future Generation Computer Systems",
+    "type": "journal-article",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          5
+        ]
+      ]
+    },
+    "online": null,
+    "print": {
+      "date-parts": [
+        [
+          2025,
+          5
+        ]
+      ]
+    },
+    "volume": "166",
+    "issue": null,
+    "page": "107681",
+    "article": "107681",
+    "resource": "https://linkinghub.elsevier.com/retrieve/pii/S0167739X24006459",
+    "updates": null,
+    "key": "li2025energyflink",
+    "cited_year": 2025,
+    "retrieved_at": "2026-10-13"
+  },
+  {
+    "doi": "10.1145/3629526.3645042",
+    "title": "Daedalus: Self-Adaptive Horizontal Autoscaling for Resource Efficiency of Distributed Stream Processing Systems",
+    "authors": [
+      {
+        "given": "Benjamin J. J.",
+        "family": "Pfister"
+      },
+      {
+        "given": "Dominik",
+        "family": "Scheinert"
+      },
+      {
+        "given": "Morgan K.",
+        "family": "Geldenhuys"
+      },
+      {
+        "given": "Odej",
+        "family": "Kao"
+      }
+    ],
+    "venue": "Proceedings of the 15th ACM/SPEC International Conference on Performance Engineering",
+    "type": "proceedings-article",
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          7
+        ]
+      ]
+    },
+    "online": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          7
+        ]
+      ]
+    },
+    "print": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          7
+        ]
+      ]
+    },
+    "volume": null,
+    "issue": null,
+    "page": "130-141",
+    "article": null,
+    "resource": "https://dl.acm.org/doi/10.1145/3629526.3645042",
+    "updates": null,
+    "key": "pfister2024daedalus",
+    "cited_year": 2024,
+    "retrieved_at": "2026-10-13"
+  },
+  {
+    "doi": "10.1109/icws55610.2022.00041",
+    "title": "Phoebe: QoS-Aware Distributed Stream Processing through Anticipating Dynamic Workloads",
+    "authors": [
+      {
+        "given": "Morgan K.",
+        "family": "Geldenhuys"
+      },
+      {
+        "given": "Dominik",
+        "family": "Scheinert"
+      },
+      {
+        "given": "Odej",
+        "family": "Kao"
+      },
+      {
+        "given": "Lauritz",
+        "family": "Thamsen"
+      }
+    ],
+    "venue": "2022 IEEE International Conference on Web Services (ICWS)",
+    "type": "proceedings-article",
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          7
+        ]
+      ]
+    },
+    "online": null,
+    "print": {
+      "date-parts": [
+        [
+          2022,
+          7
+        ]
+      ]
+    },
+    "volume": null,
+    "issue": null,
+    "page": "198-207",
+    "article": null,
+    "resource": "https://ieeexplore.ieee.org/document/9885274/",
+    "updates": null,
+    "key": "geldenhuys2022phoebe",
+    "cited_year": 2022,
+    "retrieved_at": "2026-10-13"
+  },
+  {
+    "doi": "10.1038/s43588-025-00849-y",
+    "title": "SciToolAgent: a knowledge-graph-driven scientific agent for multitool integration",
+    "authors": [
+      {
+        "given": "Keyan",
+        "family": "Ding"
+      },
+      {
+        "given": "Jing",
+        "family": "Yu"
+      },
+      {
+        "given": "Junjie",
+        "family": "Huang"
+      },
+      {
+        "given": "Yuchen",
+        "family": "Yang"
+      },
+      {
+        "given": "Qiang",
+        "family": "Zhang"
+      },
+      {
+        "given": "Huajun",
+        "family": "Chen"
+      }
+    ],
+    "venue": "Nature Computational Science",
+    "type": "journal-article",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          20
+        ]
+      ]
+    },
+    "online": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          20
+        ]
+      ]
+    },
+    "print": null,
+    "volume": "5",
+    "issue": "10",
+    "page": "962-972",
+    "article": null,
+    "resource": "https://www.nature.com/articles/s43588-025-00849-y",
+    "updates": null,
+    "key": "ding2025scitoolagent",
+    "cited_year": 2025,
+    "retrieved_at": "2026-10-13"
+  },
+  {
+    "doi": "10.1038/s41551-026-01634-6",
+    "title": "Empowering AI data scientists using a multi-agent LLM framework with self-evolving capabilities for autonomous, tool-aware biomedical data analyses",
+    "authors": [
+      {
+        "given": "Dechao",
+        "family": "Bu"
+      },
+      {
+        "given": "Jingbo",
+        "family": "Sun"
+      },
+      {
+        "given": "Kun",
+        "family": "Li"
+      },
+      {
+        "given": "Zihao",
+        "family": "He"
+      },
+      {
+        "given": "Wei",
+        "family": "Huang"
+      },
+      {
+        "given": "Jinlin",
+        "family": "Hu"
+      },
+      {
+        "given": "Shanshan",
+        "family": "Zhang"
+      },
+      {
+        "given": "Shuangshuang",
+        "family": "Lei"
+      },
+      {
+        "given": "Peipei",
+        "family": "Huo"
+      },
+      {
+        "given": "Zhihao",
+        "family": "Wang"
+      },
+      {
+        "given": "Sheng",
+        "family": "Wang"
+      },
+      {
+        "given": "Tao",
+        "family": "Wang"
+      },
+      {
+        "given": "Kai",
+        "family": "Gao"
+      },
+      {
+        "given": "Yang",
+        "family": "Wu"
+      },
+      {
+        "given": "Lianhe",
+        "family": "Zhao"
+      },
+      {
+        "given": "Kai",
+        "family": "Wang"
+      },
+      {
+        "given": "Gen",
+        "family": "Li"
+      },
+      {
+        "given": "Huan",
+        "family": "Song"
+      },
+      {
+        "given": "Yang",
+        "family": "Jin"
+      },
+      {
+        "given": "Kang",
+        "family": "Zhang"
+      },
+      {
+        "given": "Runsheng",
+        "family": "Chen"
+      },
+      {
+        "given": "Yi",
+        "family": "Zhao"
+      }
+    ],
+    "venue": "Nature Biomedical Engineering",
+    "type": "journal-article",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          30
+        ]
+      ]
+    },
+    "online": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          30
+        ]
+      ]
+    },
+    "print": null,
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "article": null,
+    "resource": "https://www.nature.com/articles/s41551-026-01634-6",
+    "updates": null,
+    "key": "bu2026biomedagent",
+    "cited_year": 2026,
+    "retrieved_at": "2026-10-13"
+  },
+  {
+    "doi": "10.1038/s41560-025-01927-1",
+    "title": "AI data centres as grid-interactive assets",
+    "authors": [
+      {
+        "given": "Philip",
+        "family": "Colangelo"
+      },
+      {
+        "given": "Ayse K.",
+        "family": "Coskun"
+      },
+      {
+        "given": "Jack",
+        "family": "Megrue"
+      },
+      {
+        "given": "Ciaran",
+        "family": "Roberts"
+      },
+      {
+        "given": "Shayan",
+        "family": "Sengupta"
+      },
+      {
+        "given": "Varun",
+        "family": "Sivaram"
+      },
+      {
+        "given": "Ethan",
+        "family": "Tiao"
+      },
+      {
+        "given": "Aroon",
+        "family": "Vijaykar"
+      },
+      {
+        "given": "Chris",
+        "family": "Williams"
+      },
+      {
+        "given": "Daniel C.",
+        "family": "Wilson"
+      },
+      {
+        "given": "Brandon",
+        "family": "Records"
+      },
+      {
+        "given": "Zack",
+        "family": "MacFarland"
+      },
+      {
+        "given": "Daniel",
+        "family": "Dreiling"
+      },
+      {
+        "given": "Nathan",
+        "family": "Morey"
+      },
+      {
+        "given": "Anuja",
+        "family": "Ratnayake"
+      },
+      {
+        "given": "Baskar",
+        "family": "Vairamohan"
+      }
+    ],
+    "venue": "Nature Energy",
+    "type": "journal-article",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          5
+        ]
+      ]
+    },
+    "online": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          5
+        ]
+      ]
+    },
+    "print": null,
+    "volume": "11",
+    "issue": "2",
+    "page": "254-261",
+    "article": null,
+    "resource": "https://www.nature.com/articles/s41560-025-01927-1",
+    "updates": null,
+    "key": "colangelo2026grid",
+    "cited_year": 2026,
+    "retrieved_at": "2026-10-13"
+  }
+]
+

@@ -1,0 +1,67 @@
+\section{Literature Review and Research Positioning}
+\label{sec:literature-review}
+The relevant literature connects numerical resource optimization, stateful reconfiguration, and agentic operational diagnosis. These strands already provide many of the mechanisms that an adaptive streaming controller would require. The purpose of this review is to distinguish those inherited capabilities from the proposed evidence-acquisition question, rather than to treat their combination as automatically novel. Table~\ref{tab:related-work} summarizes all fifteen reviewed papers. Comparisons below concern the inspected mechanisms and evaluation scope; they are not controlled reruns of the published systems.
+
+\subsection{Numerical Autoscaling and Configuration Optimization}
+Phoebe combines workload forecasting, parallel profiling, and quality-of-service models to tune streaming jobs under latency and recovery requirements~\cite{geldenhuys2022phoebe}. Its recovery discussion establishes an important constraint: capacity sufficient to match normal input can still be insufficient to clear the backlog after a failure. Daedalus instead builds processing-capacity models from runtime observations and uses forecasting for proactive horizontal scaling~\cite{pfister2024daedalus}. Its comparisons illustrate that reducing resources can involve a latency trade-off, rather than improving every service metric simultaneously.
+
+Demeter expands the decision space to worker count, CPU, memory, processing slots, and checkpoint interval, combining forecasting with multi-objective Bayesian optimization~\cite{geldenhuys2024demeter}. It already selects additional configuration-profiling runs according to information gain and skips unnecessary profiling. Consequently, selective acquisition of information in general is not an unoccupied research area. The candidate distinction for EcoStream concerns operational diagnostic observations that separate competing bottleneck explanations, rather than additional executions intended to learn a configuration's performance.
+
+More recent work broadens adaptation beyond isolated job parameters. STREAMLINE coordinates workload prediction, evolutionary configuration tuning, and operator scheduling across pipeline ensembles, with a state-preserving update mechanism described in its publisher abstract~\cite{pedratscher2025streamline}. MUDAP exposes service- and resource-level elasticity parameters, while its RASK agent uses structural knowledge, regression, and a constrained solver to coordinate competing services~\cite{sedlak2026mudap}. Some MUDAP actions alter service quality or model size. Such flexibility is valuable in its setting, but cannot be assumed equivalent to changing resources while preserving an exact streaming query. EcoStream must therefore compare controllers under the same permitted actions and semantics, including a strong low-overhead numerical alternative.
+
+\subsection{Partitioning, Scheduling, and Stateful Reconfiguration}
+Performance deterioration can originate in data distribution, communication, or the mechanics of adaptation, not only insufficient CPU allocation. Ra-Stream combines resource scaling with communication-aware subgraph partitioning and fine-grained task scheduling~\cite{fan2026rastream}. SAP-DPO responds to fluctuating input with stream-aware partitioning, adaptive update cycles, and sliding-window parameter adjustment~\cite{ren2026sapdpo}. These approaches motivate separating capacity pressure from distribution-related problems when interpreting streaming telemetry. They also constrain a broad novelty claim about adaptive monitoring or update frequency.
+
+CAOM detects bottleneck operators from runtime metrics and selects migration timing while considering interruption-related data accumulation~\cite{tan2025caom}. Thus, bottleneck-sensitive interventions and time-dependent migration costs already have direct streaming precedents. DRRS addresses the execution of stateful scaling through re-routing, record reordering, and subdivision of migrating state~\cite{qing2025drrs}. Its role differs from selecting a configuration: it reduces disruption when a scaling operation has already been chosen.
+
+This distinction matters for EcoStream's transition model. Not every stateful adjustment should be assigned a mandatory full-restart cost; the model must reflect the actual execution path of the selected engine and configuration. Likewise, detecting skew or an impaired worker is not successful remediation unless the shared action catalogue contains an intervention that can address it. Cases outside that catalogue require an explicit no-change or escalation outcome, not an assumed successful repair.
+
+\subsection{Agentic Diagnosis and Tool-Oriented Reasoning}
+RCAgent is a particularly close precedent because autonomous operational diagnosis has already been applied to Alibaba Cloud Flink jobs~\cite{wang2024rcagent}. Its controller gathers information through tools, manages lengthy observations using snapshot keys, repairs malformed outputs, and can finalize a diagnosis. The existence of autonomous tool selection, efficient context management, or a stopping action is therefore not sufficient to distinguish EcoStream. The proposed difference concerns the criterion for acquiring evidence and stopping, and its effect on executed interventions.
+
+ORACL couples language-model root-cause reasoning with resource-allocation recommendations~\cite{bai2026oracl}. Its inspected manuscript delegates numerical forecasting to a separate component and mediates actions through a verification interface. Diagnosis before allocation and separation of numerical prediction from language interpretation are consequently inherited design choices. EcoStream's planned comparison must ask whether another observation changes the preferred feasible action enough to justify its cost, rather than whether an agent can generate an allocation recommendation.
+
+Scientific tool agents provide supporting execution patterns, but not evidence of streaming-control performance. SciToolAgent uses knowledge-graph-assisted retrieval for scientific tool selection and execution, including safety checks~\cite{ding2025scitoolagent}. BioMedAgent separates planning, coding, and execution, using interactive exploration and retrieval of successful experiences to construct biomedical workflows~\cite{bu2026biomedagent}. Their relevance is bounded to tool contracts, feedback, and experience organization. A large tool graph or additional agent roles should not be introduced into a small operational catalogue without evidence that the extra complexity improves decisions. Transfer from biomedical or scientific workflow success to latency-sensitive streaming control remains a hypothesis.
+
+\subsection{Sustainability and Measurement Boundaries}
+Energy-aware scheduling is also established in Flink. Li et al. propose an SLA-based scheduling strategy together with coordinated inter-node and intra-node load balancing~\cite{li2025energyflink}. The reviewed abstract supports its scheduling motivation, but does not provide sufficient instrumentation detail for an independent physical-energy assessment. Resource allocation and energy consumption must therefore remain distinct quantities in comparisons.
+
+Colangelo et al. demonstrate grid-responsive orchestration of AI workloads, using power controls, pausing, and resource reallocation while respecting designated performance-flexibility tiers~\cite{colangelo2026grid}. This provides a physical-measurement precedent, not a direct streaming-controller baseline: some AI-job service commitments permit throughput reductions, whereas EcoStream's proposed exact-query evaluation preserves semantics and offered load. Allocated core-seconds, consumed CPU, instantaneous power, total energy, and carbon emissions answer different questions. Without suitable physical instrumentation, the present study will target resource efficiency and service quality; sustainability remains motivation rather than a measured energy-saving claim.
+
+\subsection{Comparative Gap and Proposed Study Question}
+The reviewed systems already cover proactive adaptation, constrained optimization, selective profiling, autonomous diagnosis, and recovery- or migration-aware execution. Their strengths motivate a specific unresolved question for this study: under what conditions does acquiring an additional operational observation improve a stateful intervention enough to outweigh collection and waiting costs? This is a research question, not an assertion that every prior controller lacks decision-sensitive acquisition.
+
+EcoStream would investigate an acquisition and stopping policy based on expected intervention loss. Its intended evaluation must separate this policy from the contributions of language interpretation and transition-cost modelling, using matched diagnostic tools and actions. A conventional diagnostic agent and deterministic processing of the same evidence are necessary controls. The proposed benefit would be weakened if cheap telemetry already determines the best action, if deterministic rules match the agent, or if investigation delays erase resource savings. These possible outcomes are part of the study, not exceptions to be removed after testing. Priority for the specific mechanism remains provisional until the closest final versions and implementations are reconciled.
+
+\begin{table*}[t]
+\caption{Positioning of the fifteen reviewed papers. The final column identifies how each source informs EcoStream; it does not claim that the source lacks every proposed feature. Scientific agents and power orchestration are supporting references rather than directly interchangeable streaming baselines.}
+\label{tab:related-work}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.13}
+\begin{tabularx}{\textwidth}{@{}p{0.19\textwidth} >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{Paper / system} & \textbf{Established mechanism} & \textbf{Role in the present study} \\
+\midrule
+ORACL~\cite{bai2026oracl} & LLM diagnosis, counterfactual allocation, and guarded execution & Closest joint diagnosis--allocation overlap \\
+RCAgent~\cite{wang2024rcagent} & Autonomous diagnostic tools, observation management, and finalization & Conventional agentic diagnosis and stopping comparator \\
+Demeter~\cite{geldenhuys2024demeter} & Multi-configuration optimization and selective profiling & Numerical optimization and information-cost accounting \\
+STREAMLINE~\cite{pedratscher2025streamline} & Ensemble-wide auto-tuning, scheduling, and state-preserving updates & Recent holistic adaptation precedent \\
+CAOM~\cite{tan2025caom} & Bottleneck detection and cost-aware migration timing & Transition timing and backlog-aware decisions \\
+MUDAP/RASK~\cite{sedlak2026mudap} & Structural regression and constrained multi-dimensional adaptation & Sample-efficient numerical alternative; action-space caution \\
+DRRS~\cite{qing2025drrs} & Fine-grained stateful scaling execution & Realistic transition-cost and state-size evaluation \\
+Ra-Stream~\cite{fan2026rastream} & Communication-aware partitioning, scheduling, and scaling & Non-capacity bottlenecks and topology context \\
+SAP-DPO~\cite{ren2026sapdpo} & Dynamic partitioning with adaptive update frequency & Skew-aware interpretation and monitoring precedent \\
+ESSA/TTCLB-EA~\cite{li2025energyflink} & SLA-based energy-aware scheduling and coordinated load balancing & Efficiency motivation; resource-versus-energy distinction \\
+Daedalus~\cite{pfister2024daedalus} & Online capacity models and proactive horizontal scaling & Low-overhead controller and service/resource trade-offs \\
+Phoebe~\cite{geldenhuys2022phoebe} & Profiling and forecasting with recovery constraints & Recovery-aware attribution and backlog-clearance requirements \\
+SciToolAgent~\cite{ding2025scitoolagent} & Knowledge-graph-assisted scientific tool selection & Bounded contracts and justified tool orchestration \\
+BioMedAgent~\cite{bu2026biomedagent} & Interactive workflow execution and experience retrieval & Outcome feedback and separately evaluated adaptation \\
+Grid-interactive AI~\cite{colangelo2026grid} & Measured power orchestration under flexibility-tier commitments & Physical measurement boundaries and workload constraints \\
+\bottomrule
+\end{tabularx}
+\end{table*}
+
+\subsection{Scope of the Current Literature Evidence}
+This is a targeted comparison, not an exhaustive systematic review. Some records were reviewed through publisher abstracts or author manuscripts; inaccessible method passages and differences from final published versions remain unresolved. The bibliography identifies published versions, not ordinary preprints. Mechanism descriptions are limited to inspected support, and this draft neither reproduces literature-reported results nor presents them as EcoStream findings. The project's reference ledger records access and verification status; those pending checks prevent a submission-readiness claim.

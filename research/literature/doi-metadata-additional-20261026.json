@@ -1,0 +1,1042 @@
+[
+  {
+    "doi": "10.14778/3801059.3801066",
+    "title": "Scarf: Self-Adaptive Tuning via Multi-Objective Reinforcement Learning for Apache Flink",
+    "authors": [
+      {
+        "given": "Liu",
+        "family": "Liu",
+        "name": null
+      },
+      {
+        "given": "Shenghao",
+        "family": "Gong",
+        "name": null
+      },
+      {
+        "given": "Ziquan",
+        "family": "Fang",
+        "name": null
+      },
+      {
+        "given": "Yunjun",
+        "family": "Gao",
+        "name": null
+      }
+    ],
+    "venue": "Proceedings of the VLDB Endowment",
+    "type": "journal-article",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          1
+        ]
+      ]
+    },
+    "online": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          14
+        ]
+      ]
+    },
+    "print": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          1
+        ]
+      ]
+    },
+    "volume": "19",
+    "issue": "7",
+    "page": "1516-1529",
+    "article": null,
+    "resource": "https://dl.acm.org/doi/10.14778/3801059.3801066",
+    "updates": null,
+    "abstract": "<jats:p>Distributed stream processing systems (DSPSs) such as Apache Flink have become omnipresent for real-time data processing in e-commerce, finance, telecommunications, etc. The execution behavior of Flink is controlled by a vast and complex space of configuration knobs, necessitating automatic knob tuning to economize resource usage while maintaining sufficient processing capabilities for a given workload. Existing automatic methods largely adjust limited configuration knobs, respond slowly to dynamic workloads, and have difficulty transferring knowledge between heterogeneous jobs with diverse knob spaces.</jats:p>\n                  <jats:p>\n                    To solve these problems, we present\n                    <jats:bold>Scarf</jats:bold>\n                    , a self-adaptive configuration tuning framework using multi-objective reinforcement learning (RL) for Apache Flink. Specifically, (1) we accelerate job-specific knob selection by clustering historical workloads according to their sensitivity to knob changes, dramatically reducing redundant sampling; (2) we formulate tuning as a multi-objective RL problem that jointly optimizes throughput and resource usage, learning a forest of RL models offline representing the Pareto front of the configurations, and dynamically selecting configurations from the Pareto front under fluctuating online workloads; (3) we enable rapid adaptation to new job topologies via a transferable actor-critic architecture based on graph neural networks (GNNs), complemented with a progressive neural-network (PNN) warm-up strategy. We implement\n                    <jats:bold>Scarf</jats:bold>\n                    on Apache Flink and evaluate it on a diverse range of streaming applications. Our framework significantly outperforms state-of-the-art DSPS tuning approaches, achieving up to 62.5% savings in CPU resources, 68.3% savings in memory usage, 77.1% reduction in online tuning time, while maintaining sufficient processing abilities throughout workload fluctuations.\n                  </jats:p>",
+    "key": "liu2026scarf",
+    "cited_year": 2026,
+    "review_number": 16,
+    "retrieved_at": "2026-10-26",
+    "evidence_level": "PVLDB journal-style proceedings; publisher-deposited abstract; final PDF not retrieved",
+    "support_url": "https://api.crossref.org/works/10.14778%2F3801059.3801066",
+    "supported_claim": "Publisher-deposited abstract: sensitivity-based knob selection, multi-objective RL and transferable graph models.",
+    "support_checked": true,
+    "published_version_checked": false,
+    "notices_checked": false
+  },
+  {
+    "doi": "10.1016/j.future.2026.108461",
+    "title": "A Multi-Model predictive framework for adaptive resource management in stream processing systems",
+    "authors": [
+      {
+        "given": "Daniel",
+        "family": "Wladdimiro",
+        "name": null
+      },
+      {
+        "given": "Nicolás",
+        "family": "Hidalgo",
+        "name": null
+      },
+      {
+        "given": "Alessio",
+        "family": "Pagliari",
+        "name": null
+      },
+      {
+        "given": "Luciana",
+        "family": "Arantes",
+        "name": null
+      },
+      {
+        "given": "Pierre",
+        "family": "Sens",
+        "name": null
+      },
+      {
+        "given": "Erika",
+        "family": "Rosas",
+        "name": null
+      },
+      {
+        "given": "Victor",
+        "family": "Reyes",
+        "name": null
+      }
+    ],
+    "venue": "Future Generation Computer Systems",
+    "type": "journal-article",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          9
+        ]
+      ]
+    },
+    "online": null,
+    "print": {
+      "date-parts": [
+        [
+          2026,
+          9
+        ]
+      ]
+    },
+    "volume": "182",
+    "issue": null,
+    "page": "108461",
+    "article": "108461",
+    "resource": "https://linkinghub.elsevier.com/retrieve/pii/S0167739X26000956",
+    "updates": null,
+    "abstract": null,
+    "key": "wladdimiro2026mmpsps",
+    "cited_year": 2026,
+    "review_number": 17,
+    "retrieved_at": "2026-10-26",
+    "evidence_level": "Publisher full-text HTML; Abstract and Sections 3.3, 5.3-5.4",
+    "support_url": "https://www.sciencedirect.com/science/article/pii/S0167739X26000956",
+    "supported_claim": "Multi-window predictive adaptation with RMSE/bandit model selection; implemented in Apache Storm.",
+    "support_checked": true,
+    "published_version_checked": true,
+    "notices_checked": false
+  },
+  {
+    "doi": "10.1109/tsc.2025.3611995",
+    "title": "A Hierarchical Near-Source Grouping Strategy for Elastic Stream Computing Systems",
+    "authors": [
+      {
+        "given": "Minghui",
+        "family": "Wu",
+        "name": null
+      },
+      {
+        "given": "Dawei",
+        "family": "Sun",
+        "name": null
+      },
+      {
+        "given": "Shang",
+        "family": "Gao",
+        "name": null
+      },
+      {
+        "given": "Rajkumar",
+        "family": "Buyya",
+        "name": null
+      }
+    ],
+    "venue": "IEEE Transactions on Services Computing",
+    "type": "journal-article",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          11
+        ]
+      ]
+    },
+    "online": null,
+    "print": {
+      "date-parts": [
+        [
+          2025,
+          11
+        ]
+      ]
+    },
+    "volume": "18",
+    "issue": "6",
+    "page": "3378-3391",
+    "article": null,
+    "resource": "https://ieeexplore.ieee.org/document/11173955/",
+    "updates": null,
+    "abstract": null,
+    "key": "wu2025nsstream",
+    "cited_year": 2025,
+    "review_number": 18,
+    "retrieved_at": "2026-10-26",
+    "evidence_level": "Author-hosted published PDF; indexed abstract and Section VI, p. 3384; full download timed out",
+    "support_url": "https://buyya.com/papers/NearSource_Stream-TSC.pdf",
+    "supported_claim": "Near-source/off-source grouping and Storm scheduler; communication versus capacity pressure.",
+    "support_checked": true,
+    "published_version_checked": true,
+    "notices_checked": false
+  },
+  {
+    "doi": "10.1016/j.future.2024.107673",
+    "title": "Straggler mitigation via hierarchical scheduling in elastic stream computing systems",
+    "authors": [
+      {
+        "given": "Minghui",
+        "family": "Wu",
+        "name": null
+      },
+      {
+        "given": "Dawei",
+        "family": "Sun",
+        "name": null
+      },
+      {
+        "given": "Shang",
+        "family": "Gao",
+        "name": null
+      },
+      {
+        "given": "Rajkumar",
+        "family": "Buyya",
+        "name": null
+      }
+    ],
+    "venue": "Future Generation Computer Systems",
+    "type": "journal-article",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          5
+        ]
+      ]
+    },
+    "online": null,
+    "print": {
+      "date-parts": [
+        [
+          2025,
+          5
+        ]
+      ]
+    },
+    "volume": "166",
+    "issue": null,
+    "page": "107673",
+    "article": "107673",
+    "resource": "https://linkinghub.elsevier.com/retrieve/pii/S0167739X2400637X",
+    "updates": null,
+    "abstract": null,
+    "key": "wu2025msstream",
+    "cited_year": 2025,
+    "review_number": 19,
+    "retrieved_at": "2026-10-26",
+    "evidence_level": "Author-hosted published PDF; Abstract and Introduction, p. 1",
+    "support_url": "https://clouds.cis.unimelb.edu.au/~rbuyya/papers/StragglerStreamComp-FGCS.pdf",
+    "supported_claim": "Hierarchical grouping, task partitioning and placement mitigate task/node stragglers.",
+    "support_checked": true,
+    "published_version_checked": true,
+    "notices_checked": false
+  },
+  {
+    "doi": "10.1016/j.future.2025.108235",
+    "title": "Federated reinforcement learning-based adaptive stream applications scheduling in edge and cloud computing",
+    "authors": [
+      {
+        "given": "Sabeur",
+        "family": "Lajili",
+        "name": null
+      },
+      {
+        "given": "Zaki",
+        "family": "Brahmi",
+        "name": null
+      },
+      {
+        "given": "Mohamed Nazih",
+        "family": "Omri",
+        "name": null
+      },
+      {
+        "given": "Rocioo",
+        "family": "Perez De Prado",
+        "name": null
+      }
+    ],
+    "venue": "Future Generation Computer Systems",
+    "type": "journal-article",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          4
+        ]
+      ]
+    },
+    "online": null,
+    "print": {
+      "date-parts": [
+        [
+          2026,
+          4
+        ]
+      ]
+    },
+    "volume": "177",
+    "issue": null,
+    "page": "108235",
+    "article": "108235",
+    "resource": "https://linkinghub.elsevier.com/retrieve/pii/S0167739X25005291",
+    "updates": null,
+    "abstract": null,
+    "key": "lajili2026proosstream",
+    "cited_year": 2026,
+    "review_number": 20,
+    "retrieved_at": "2026-10-26",
+    "evidence_level": "Publisher full-text HTML; Abstract and Introduction",
+    "support_url": "https://www.sciencedirect.com/science/article/pii/S0167739X25005291",
+    "supported_claim": "Offline optimization, federated RL scheduling and LSTM workload prediction in edge-cloud settings.",
+    "support_checked": true,
+    "published_version_checked": true,
+    "notices_checked": false
+  },
+  {
+    "doi": "10.1145/3597435",
+    "title": "Hierarchical Auto-scaling Policies for Data Stream Processing on Heterogeneous Resources",
+    "authors": [
+      {
+        "given": "Gabriele",
+        "family": "Russo Russo",
+        "name": null
+      },
+      {
+        "given": "Valeria",
+        "family": "Cardellini",
+        "name": null
+      },
+      {
+        "given": "Francesco",
+        "family": "Lo Presti",
+        "name": null
+      }
+    ],
+    "venue": "ACM Transactions on Autonomous and Adaptive Systems",
+    "type": "journal-article",
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          14
+        ]
+      ]
+    },
+    "online": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          14
+        ]
+      ]
+    },
+    "print": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          31
+        ]
+      ]
+    },
+    "volume": "18",
+    "issue": "4",
+    "page": "1-44",
+    "article": null,
+    "resource": "https://dl.acm.org/doi/10.1145/3597435",
+    "updates": null,
+    "abstract": "<jats:p>Data Stream Processing (DSP) applications analyze data flows in near real-time by means of operators, which process and transform incoming data. Operators handle high data rates running parallel replicas across multiple processors and hosts. To guarantee consistent performance without wasting resources in the face of variable workloads, auto-scaling techniques have been studied to adapt operator parallelism at run-time. However, most of the effort has been spent under the assumption of homogeneous computing infrastructures, neglecting the complexity of modern environments.</jats:p>\n                  <jats:p>We consider the problem of deciding both how many operator replicas should be executed and which types of computing nodes should be acquired. We devise heterogeneity-aware policies by means of a two-layered hierarchy of controllers. While application-level components steer the adaptation process for whole applications, aiming to guarantee user-specified requirements, lower-layer components control auto-scaling of single operators. We tackle the fundamental challenge of performance and workload uncertainty, exploiting Bayesian optimization (BO) and reinforcement learning (RL) to devise policies. The evaluation shows that our approach is able to meet users’ requirements in terms of response time and adaptation overhead, while minimizing the cost due to resource usage, outperforming state-of-the-art baselines. We also demonstrate how partial model information is exploited to reduce training time for learning-based controllers.</jats:p>",
+    "key": "russorusso2023hierarchical",
+    "cited_year": 2023,
+    "review_number": 21,
+    "retrieved_at": "2026-10-26",
+    "evidence_level": "Publisher-deposited abstract and institutional record; full text restricted",
+    "support_url": "https://art.torvergata.it/handle/2108/345524",
+    "supported_claim": "Two-layer operator/application control with Bayesian optimization and RL for heterogeneous resources.",
+    "support_checked": true,
+    "published_version_checked": false,
+    "notices_checked": false
+  },
+  {
+    "doi": "10.1007/s10723-024-09756-4",
+    "title": "Adaptive Scheduling Framework of Streaming Applications based on Resource Demand Prediction with Hybrid Algorithms",
+    "authors": [
+      {
+        "given": "Hongjian",
+        "family": "Li",
+        "name": null
+      },
+      {
+        "given": "Wei",
+        "family": "Luo",
+        "name": null
+      },
+      {
+        "given": "Wenbin",
+        "family": "Xie",
+        "name": null
+      },
+      {
+        "given": "Huaqing",
+        "family": "Ye",
+        "name": null
+      },
+      {
+        "given": "Xiaolin",
+        "family": "Duan",
+        "name": null
+      }
+    ],
+    "venue": "Journal of Grid Computing",
+    "type": "journal-article",
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          3
+        ]
+      ]
+    },
+    "online": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          9
+        ]
+      ]
+    },
+    "print": {
+      "date-parts": [
+        [
+          2024,
+          3
+        ]
+      ]
+    },
+    "volume": "22",
+    "issue": "1",
+    "page": null,
+    "article": "39",
+    "resource": "https://link.springer.com/10.1007/s10723-024-09756-4",
+    "updates": null,
+    "abstract": null,
+    "key": "li2024cebfd",
+    "cited_year": 2024,
+    "review_number": 22,
+    "retrieved_at": "2026-10-26",
+    "evidence_level": "Publisher abstract; methods/paywalled full text not inspected",
+    "support_url": "https://link.springer.com/article/10.1007/s10723-024-09756-4",
+    "supported_claim": "Spark Streaming executor placement with SSA/XGBoost resource demand prediction and a cost model.",
+    "support_checked": true,
+    "published_version_checked": true,
+    "notices_checked": false
+  },
+  {
+    "doi": "10.1007/s10115-025-02509-z",
+    "title": "Local recovery and partial snapshot in distributed stateful stream processing",
+    "authors": [
+      {
+        "given": null,
+        "family": "Takdir",
+        "name": null
+      },
+      {
+        "given": "Hiroyuki",
+        "family": "Kitagawa",
+        "name": null
+      },
+      {
+        "given": "Toshiyuki",
+        "family": "Amagasa",
+        "name": null
+      }
+    ],
+    "venue": "Knowledge and Information Systems",
+    "type": "journal-article",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          30
+        ]
+      ]
+    },
+    "online": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          30
+        ]
+      ]
+    },
+    "print": {
+      "date-parts": [
+        [
+          2025,
+          10
+        ]
+      ]
+    },
+    "volume": "67",
+    "issue": "10",
+    "page": "9407-9435",
+    "article": null,
+    "resource": "https://link.springer.com/10.1007/s10115-025-02509-z",
+    "updates": null,
+    "abstract": "<jats:title>Abstract</jats:title>\n          <jats:p>In data stream applications, a query is created using a series of operators connected by unidirectional pipelines. Since those operators may be deployed in a shared-nothing distributed environment, it is necessary to have a valid restore point in case an operator fails. This ensures consistency of the states among operators after recovering from failures. Typical fault-tolerant approaches periodically capture global snapshots, encompassing all operator states. In the recovery process, all operators must be reinstated to the most recent global snapshot. This global dependency affects the recovery performance and the required computational costs for recovery. We propose fault-tolerant schemes for stateful stream processing that localizes recovery to a subset of operators. Additionally, we introduce a partial snapshot mechanism to capture the states required for local recovery efficiently. This snapshot records only a subset of operator states instead of global states. Our implemented recovery schemes in Apache Flink show improved recovery times by up to more than 50 percent.\n</jats:p>",
+    "key": "takdir2025localrecovery",
+    "cited_year": 2025,
+    "review_number": 23,
+    "retrieved_at": "2026-10-26",
+    "evidence_level": "Publisher full text; Abstract and Section 1",
+    "support_url": "https://link.springer.com/article/10.1007/s10115-025-02509-z",
+    "supported_claim": "Local recovery and partial snapshots in Flink; subset recovery rather than mandatory global restart.",
+    "support_checked": true,
+    "published_version_checked": true,
+    "notices_checked": false
+  },
+  {
+    "doi": "10.1109/tpds.2023.3251997",
+    "title": "Adaptive Fragment-Based Parallel State Recovery for Stream Processing Systems",
+    "authors": [
+      {
+        "given": "Hailu",
+        "family": "Xu",
+        "name": null
+      },
+      {
+        "given": "Pinchao",
+        "family": "Liu",
+        "name": null
+      },
+      {
+        "given": "Sarker Tanzir",
+        "family": "Ahmed",
+        "name": null
+      },
+      {
+        "given": "Dilma",
+        "family": "Da Silva",
+        "name": null
+      },
+      {
+        "given": "Liting",
+        "family": "Hu",
+        "name": null
+      }
+    ],
+    "venue": "IEEE Transactions on Parallel and Distributed Systems",
+    "type": "journal-article",
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          8
+        ]
+      ]
+    },
+    "online": null,
+    "print": {
+      "date-parts": [
+        [
+          2023,
+          8
+        ]
+      ]
+    },
+    "volume": "34",
+    "issue": "8",
+    "page": "2464-2478",
+    "article": null,
+    "resource": "https://ieeexplore.ieee.org/document/10077765/",
+    "updates": null,
+    "abstract": null,
+    "key": "xu2023afp4s",
+    "cited_year": 2023,
+    "review_number": 24,
+    "retrieved_at": "2026-10-26",
+    "evidence_level": "Author-hosted published PDF; Abstract, p. 2464",
+    "support_url": "https://people.ucsc.edu/~lhu82/Biobibnet/Journal/23TPDS_AFP4S.pdf",
+    "supported_claim": "Peer-to-peer fragments and adaptive parallel state recovery under heterogeneous hardware.",
+    "support_checked": true,
+    "published_version_checked": true,
+    "notices_checked": false
+  },
+  {
+    "doi": "10.1109/tsc.2025.3629066",
+    "title": "TAMO:Fine-Grained Root Cause Analysis via Tool-Assisted LLM Agent With Multi-Modality Observation Data in Cloud-Native Systems",
+    "authors": [
+      {
+        "given": "Xiao",
+        "family": "Zhang",
+        "name": null
+      },
+      {
+        "given": "Qi",
+        "family": "Wang",
+        "name": null
+      },
+      {
+        "given": "Mingyi",
+        "family": "Li",
+        "name": null
+      },
+      {
+        "given": "Yuan",
+        "family": "Yuan",
+        "name": null
+      },
+      {
+        "given": "Mengbai",
+        "family": "Xiao",
+        "name": null
+      },
+      {
+        "given": "Fuzhen",
+        "family": "Zhuang",
+        "name": null
+      },
+      {
+        "given": "Dongxiao",
+        "family": "Yu",
+        "name": null
+      }
+    ],
+    "venue": "IEEE Transactions on Services Computing",
+    "type": "journal-article",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          11
+        ]
+      ]
+    },
+    "online": null,
+    "print": {
+      "date-parts": [
+        [
+          2025,
+          11
+        ]
+      ]
+    },
+    "volume": "18",
+    "issue": "6",
+    "page": "4221-4233",
+    "article": null,
+    "resource": "https://ieeexplore.ieee.org/document/11229957/",
+    "updates": null,
+    "abstract": null,
+    "key": "zhang2025tamo",
+    "cited_year": 2025,
+    "review_number": 25,
+    "retrieved_at": "2026-10-26",
+    "evidence_level": "Published title/DOI metadata only; IEEE challenge blocked abstract/full text; no preprint substituted",
+    "support_url": "https://ieeexplore.ieee.org/document/11229957/",
+    "supported_claim": "Title establishes tool-assisted multimodal LLM diagnosis overlap; detailed mechanism/performance claims withheld.",
+    "support_checked": false,
+    "published_version_checked": false,
+    "notices_checked": false
+  },
+  {
+    "doi": "10.1109/tsc.2026.3676262",
+    "title": "LLM-Enhanced Failure Localization in Microservices: Integrating Multi-Modal Data and Expert Interpretation",
+    "authors": [
+      {
+        "given": "Zhenyu",
+        "family": "Zhong",
+        "name": null
+      },
+      {
+        "given": "Ruowei",
+        "family": "Fu",
+        "name": null
+      },
+      {
+        "given": "Minghua",
+        "family": "Ma",
+        "name": null
+      },
+      {
+        "given": "Shenglin",
+        "family": "Zhang",
+        "name": null
+      },
+      {
+        "given": "Yongqian",
+        "family": "Sun",
+        "name": null
+      },
+      {
+        "given": "Chetan",
+        "family": "Bansal",
+        "name": null
+      },
+      {
+        "given": "Dan",
+        "family": "Pei",
+        "name": null
+      }
+    ],
+    "venue": "IEEE Transactions on Services Computing",
+    "type": "journal-article",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          5
+        ]
+      ]
+    },
+    "online": null,
+    "print": {
+      "date-parts": [
+        [
+          2026,
+          5
+        ]
+      ]
+    },
+    "volume": "19",
+    "issue": "3",
+    "page": "2275-2288",
+    "article": null,
+    "resource": "https://ieeexplore.ieee.org/document/11449471/",
+    "updates": null,
+    "abstract": null,
+    "key": "zhong2026localexpert",
+    "cited_year": 2026,
+    "review_number": 26,
+    "retrieved_at": "2026-10-26",
+    "evidence_level": "Author-hosted manuscript; Abstract and Introduction; final-version reconciliation pending",
+    "support_url": "https://nkcs.iops.ai/wp-content/uploads/2026/03/LocaleXpert.pdf",
+    "supported_claim": "Modality-to-text pipeline, specialist LLM agents and diagnosis interpretation in microservices.",
+    "support_checked": true,
+    "published_version_checked": false,
+    "notices_checked": false
+  },
+  {
+    "doi": "10.1007/s40747-025-02096-0",
+    "title": "Leveraging multi-agent framework for root cause analysis",
+    "authors": [
+      {
+        "given": "Feng",
+        "family": "Fu",
+        "name": null
+      },
+      {
+        "given": "Hong",
+        "family": "Ding",
+        "name": null
+      },
+      {
+        "given": "Yong",
+        "family": "Qin",
+        "name": null
+      },
+      {
+        "given": "Jian",
+        "family": "Yu",
+        "name": null
+      },
+      {
+        "given": "Dechao",
+        "family": "Xu",
+        "name": null
+      }
+    ],
+    "venue": "Complex &amp; Intelligent Systems",
+    "type": "journal-article",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          6
+        ]
+      ]
+    },
+    "online": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          6
+        ]
+      ]
+    },
+    "print": {
+      "date-parts": [
+        [
+          2026,
+          1
+        ]
+      ]
+    },
+    "volume": "12",
+    "issue": "1",
+    "page": null,
+    "article": "4",
+    "resource": "https://link.springer.com/10.1007/s40747-025-02096-0",
+    "updates": null,
+    "abstract": null,
+    "key": "fu2026marca",
+    "cited_year": 2026,
+    "review_number": 27,
+    "retrieved_at": "2026-10-26",
+    "evidence_level": "Publisher full text; Abstract and Introduction",
+    "support_url": "https://link.springer.com/article/10.1007/s40747-025-02096-0",
+    "supported_claim": "Specialist multi-agent diagnosis with retrieval grounding and runtime hypothesis validation.",
+    "support_checked": true,
+    "published_version_checked": true,
+    "notices_checked": false
+  },
+  {
+    "doi": "10.1016/j.jss.2023.111724",
+    "title": "CausalRCA: Causal inference based precise fine-grained root cause localization for microservice applications",
+    "authors": [
+      {
+        "given": "Ruyue",
+        "family": "Xin",
+        "name": null
+      },
+      {
+        "given": "Peng",
+        "family": "Chen",
+        "name": null
+      },
+      {
+        "given": "Zhiming",
+        "family": "Zhao",
+        "name": null
+      }
+    ],
+    "venue": "Journal of Systems and Software",
+    "type": "journal-article",
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          9
+        ]
+      ]
+    },
+    "online": null,
+    "print": {
+      "date-parts": [
+        [
+          2023,
+          9
+        ]
+      ]
+    },
+    "volume": "203",
+    "issue": null,
+    "page": "111724",
+    "article": "111724",
+    "resource": "https://linkinghub.elsevier.com/retrieve/pii/S016412122300119X",
+    "updates": null,
+    "abstract": null,
+    "key": "xin2023causalrca",
+    "cited_year": 2023,
+    "review_number": 28,
+    "retrieved_at": "2026-10-26",
+    "evidence_level": "Institutional final published PDF; article Abstract, PDF p. 2",
+    "support_url": "https://pure.uva.nl/ws/files/166189852/CausalRCA.pdf",
+    "supported_claim": "Gradient-based causal structure learning and fine-grained root-cause metric ranking.",
+    "support_checked": true,
+    "published_version_checked": true,
+    "notices_checked": false
+  },
+  {
+    "doi": "10.1007/s00778-023-00819-8",
+    "title": "A survey on the evolution of stream processing systems",
+    "authors": [
+      {
+        "given": "Marios",
+        "family": "Fragkoulis",
+        "name": null
+      },
+      {
+        "given": "Paris",
+        "family": "Carbone",
+        "name": null
+      },
+      {
+        "given": "Vasiliki",
+        "family": "Kalavri",
+        "name": null
+      },
+      {
+        "given": "Asterios",
+        "family": "Katsifodimos",
+        "name": null
+      }
+    ],
+    "venue": "The VLDB Journal",
+    "type": "journal-article",
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          22
+        ]
+      ]
+    },
+    "online": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          22
+        ]
+      ]
+    },
+    "print": {
+      "date-parts": [
+        [
+          2024,
+          3
+        ]
+      ]
+    },
+    "volume": "33",
+    "issue": "2",
+    "page": "507-541",
+    "article": null,
+    "resource": "https://link.springer.com/10.1007/s00778-023-00819-8",
+    "updates": null,
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Stream processing has been an active research field for more than 20 years, but it is now witnessing its prime time due to recent successful efforts by the research community and numerous worldwide open-source communities. This survey provides a comprehensive overview of fundamental aspects of stream processing systems and their evolution in the functional areas of out-of-order data management, state management, fault tolerance, high availability, load management, elasticity, and reconfiguration. We review noteworthy past research findings, outline the similarities and differences between the first  (’00–’10) and second  (’11–’23) generation of stream processing systems, and discuss future trends and open problems.</jats:p>",
+    "key": "fragkoulis2024evolution",
+    "cited_year": 2024,
+    "review_number": 29,
+    "retrieved_at": "2026-10-26",
+    "evidence_level": "Publisher full text; Abstract and Introduction; 2024 issue / 2023 online",
+    "support_url": "https://link.springer.com/article/10.1007/s00778-023-00819-8",
+    "supported_claim": "Survey of streaming state, fault tolerance, elasticity, reconfiguration and ordering semantics.",
+    "support_checked": true,
+    "published_version_checked": true,
+    "notices_checked": false
+  },
+  {
+    "doi": "10.1145/3514496",
+    "title": "Runtime Adaptation of Data Stream Processing Systems: The State of the Art",
+    "authors": [
+      {
+        "given": "Valeria",
+        "family": "Cardellini",
+        "name": null
+      },
+      {
+        "given": "Francesco",
+        "family": "Lo Presti",
+        "name": null
+      },
+      {
+        "given": "Matteo",
+        "family": "Nardelli",
+        "name": null
+      },
+      {
+        "given": "Gabriele Russo",
+        "family": "Russo",
+        "name": null
+      }
+    ],
+    "venue": "ACM Computing Surveys",
+    "type": "journal-article",
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          31
+        ]
+      ]
+    },
+    "online": {
+      "date-parts": [
+        [
+          2022,
+          9,
+          9
+        ]
+      ]
+    },
+    "print": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          31
+        ]
+      ]
+    },
+    "volume": "54",
+    "issue": "11s",
+    "page": "1-36",
+    "article": null,
+    "resource": "https://dl.acm.org/doi/10.1145/3514496",
+    "updates": null,
+    "abstract": "<jats:p>Data stream processing (DSP) has emerged over the years as the reference paradigm for the analysis of continuous and fast information flows, which often have to be processed with low-latency requirements to extract insights and knowledge from raw data. Dealing with unbounded dataflows, DSP applications are typically long running and thus, likely experience varying workloads and working conditions over time. To keep a consistent service level in face of such variability, a lot of effort has been spent studying strategies for runtime adaptation of DSP systems and applications. In this survey, we review the most relevant approaches from the literature, presenting a taxonomy to characterize the state of the art along several key dimensions. Our analysis allows us to identify current research trends as well as open challenges that will motivate further investigations in this field.</jats:p>",
+    "key": "cardellini2022adaptation",
+    "cited_year": 2022,
+    "review_number": 30,
+    "retrieved_at": "2026-10-26",
+    "evidence_level": "Publisher-deposited abstract and institutional bibliography; full text not inspected",
+    "support_url": "https://api.crossref.org/works/10.1145%2F3514496",
+    "supported_claim": "Survey and taxonomy of runtime stream-processing adaptation; not an experimental controller.",
+    "support_checked": true,
+    "published_version_checked": false,
+    "notices_checked": false
+  }
+]

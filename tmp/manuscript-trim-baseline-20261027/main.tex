@@ -1,0 +1,84 @@
+\documentclass[nolineno]{ieeeaccess}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{cite}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{booktabs,tabularx,array}
+\usepackage[hidelinks,bookmarks=false]{hyperref}
+
+% Preserve the official class and its header layout, but do not present this
+% unpublished working draft as an article with an assigned volume/copyright.
+\makeatletter
+\newcommand{\ecostreamdraftfooters}{%
+  \def\@oddfoot{\hbox to \textwidth{\footervolfont Unpublished working draft\hfill\footerpagefont\thepage}}%
+  \let\@evenfoot\@oddfoot}
+\let\ecostreamoriginaltitlepage\ps@titlepage
+\def\ps@titlepage{\ecostreamoriginaltitlepage\ecostreamdraftfooters}
+\let\ecostreamoriginalheadings\ps@headings
+\def\ps@headings{\ecostreamoriginalheadings\ecostreamdraftfooters}
+\makeatother
+\pagestyle{headings}
+\setlength{\titlewidth}{\dimexpr\textwidth-2.96pc-3.15pc\relax}
+\setlength{\abstractwidth}{\titlewidth}
+\addtolength{\abstractwidth}{-2.39mm}
+\hypersetup{pdftitle={EcoStream-Agent: Decision-Focused Evidence Acquisition for Resource-Efficient Stateful Stream Processing},pdfauthor={}}
+\emergencystretch=1.5em
+
+\begin{document}
+\history{Pre-experiment working draft, updated 26 October 2026. Not submitted or published.}
+\doi{Not assigned (unpublished draft).}
+\title{EcoStream-Agent: Decision-Focused Evidence Acquisition for Resource-Efficient Stateful Stream Processing}
+\author{Author details pending}
+\address{Names, affiliations, and author order have not yet been supplied.}
+\corresp{Correspondence details remain to be supplied by the authors.}
+\markboth{EcoStream-Agent: Unpublished Working Draft}{EcoStream-Agent: Unpublished Working Draft}
+
+\begin{abstract}
+Stateful stream-processing systems must adapt resource allocations while preserving result correctness, service latency, and recovery requirements. Additional diagnostic evidence can help a controller distinguish resource pressure from other bottlenecks, but gathering evidence and waiting for analysis also incur operational costs. Reconfiguration can introduce further disruption while state is transferred or restored and accumulated events are processed. This study proposes EcoStream-Agent, a supervisory controller that acquires operational evidence according to its expected effect on the intervention decision. The planned design separates language-model interpretation of diagnostic evidence from numerical estimation of action effects and transition costs, with execution restricted to supported interventions. The research question is whether decision-focused investigation improves resource efficiency sufficiently to outweigh collection and delay overhead. The intended evaluation uses controlled stateful streaming workloads, common action spaces, numerical and diagnostic-agent baselines, deterministic evidence-processing alternatives, and measurements of allocated resources, service quality, backlog clearance, and controller cost. This pre-experiment draft develops the comparative literature review; implementation, experimental results, and empirical conclusions remain pending. Neither publication novelty nor physical energy savings have been established.
+\end{abstract}
+
+\begin{keywords}
+Agentic AI, diagnostic evidence acquisition, resource efficiency, stateful stream processing, systems optimization.
+\end{keywords}
+\titlepgskip=-15pt
+\maketitle
+
+\section{Introduction}
+\label{sec:introduction}
+Stateful streaming jobs continuously transform arriving events and retain information needed for operations such as joins and windowed aggregation. Operators must allocate sufficient processing capacity for normal operation and for clearing accumulated events after interruptions. Recovery-aware controllers and multi-configuration optimization already address important parts of this resource--service-quality trade-off~\cite{geldenhuys2022phoebe,geldenhuys2024demeter}.
+
+EcoStream-Agent is proposed to investigate a narrower decision problem: when is another diagnostic observation worth acquiring before a stateful intervention? Its intended objective is resource efficiency subject to correctness and service requirements, not improved fault-label confidence in isolation. The present manuscript contains an initial comparative literature review. The controller, protocol, results, and final contribution statements have not yet been completed; the working title describes a research aim rather than a measured performance claim.
+
+\section{Background and Study Scope}
+\label{sec:background}
+A stateful stream-processing operator retains data across events; changing its deployment can require state redistribution or restoration. A \emph{backlog} is input that has arrived but has not yet been processed. A \emph{service-level objective} specifies an operational requirement, such as a latency or recovery limit. Because restoring a job is not equivalent to catching up with new input, service quality must be assessed through backlog clearance as well as restart completion~\cite{geldenhuys2022phoebe}.
+
+This study distinguishes a \emph{diagnostic observation}, which obtains evidence about an operating condition, from an \emph{intervention}, which changes that condition or the job configuration. It also distinguishes choosing an intervention from optimizing its low-level execution. The proposed acquisition rule would compare the expected benefit of better decisions with collection overhead, investigation delay, and the cost of applying a stateful change. Its probabilistic models and operational measurement boundary remain to be specified and validated.
+
+\input{sections/literature-review}
+
+\section{Proposed Methodology}
+\label{sec:methodology}
+\textbf{Pending implementation and specification.} The agreed direction is decision-focused diagnostic evidence acquisition with numerical action-effect estimation, explicit transition costs, a bounded executor, and outcome verification. The project study plan records the intended design; no controller execution or calibrated outcome model is claimed here.
+
+\section{Experimental Design}
+\label{sec:experimental-design}
+\textbf{Pending protocol freeze.} Planned evaluation must use matched workload traces and permitted actions, strong numerical and diagnostic baselines, independent repeated episodes, and separate calibration and held-out evaluation conditions. Resource accounting must include controller and intervention overhead and extend through backlog clearance. Hardware, versions, budgets, and correctness definitions must describe the eventual recorded runs.
+
+\section{Results and Analysis}
+\label{sec:results}
+\textbf{No EcoStream experimental results are available.} This section will be written from checked run records; it contains no estimated gains or invented measurements.
+
+\section{Discussion and Conclusion}
+\label{sec:discussion}
+\textbf{Empirical interpretation remains pending.} The literature motivates a focused study, but novelty, the value of language-model interpretation, and resource-efficiency improvements must be established through the intended comparisons. Final limitations and conclusions will depend on the completed evidence.
+
+\section*{Draft Disclosure and Author Actions}
+OpenAI Codex assisted with drafting the literature-review prose, organizing the comparison table, and preparing the bibliography and LaTeX sources. Human author verification and approval remain pending. Author identities, funding, competing interests, availability statements, and any final venue-specific declarations have not been supplied and are not invented in this draft.
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+\EOD
+\end{document}

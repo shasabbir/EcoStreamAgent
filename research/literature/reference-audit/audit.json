@@ -1,0 +1,590 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-13",
+  "records": [
+    {
+      "key": "bai2026oracl",
+      "doi": "10.1109/tsc.2026.3707982",
+      "year": 2026,
+      "preprint": false,
+      "status": "pending",
+      "reasons": [
+        "claim-support review incomplete",
+        "correction/withdrawal/retraction review incomplete"
+      ],
+      "warnings": [],
+      "metadata_source": "cached crossref (2026-10-13)",
+      "registry_record": {
+        "doi": "10.1109/tsc.2026.3707982",
+        "title": "<b>ORACL</b>\n                    : Optimized Reasoning for Autoscaling via Chain of Thought With LLMs for Microservices",
+        "authors": [
+          "Bai",
+          "Islam",
+          "Xu",
+          "Buyya"
+        ],
+        "years": [
+          2026
+        ],
+        "venues": [
+          "IEEE Transactions on Services Computing"
+        ],
+        "type": "journal-article",
+        "url": "https://doi.org/10.1109/tsc.2026.3707982",
+        "preprint": false,
+        "notices": [],
+        "published_relations": []
+      }
+    },
+    {
+      "key": "wang2024rcagent",
+      "doi": "10.1145/3627673.3680016",
+      "year": 2024,
+      "preprint": false,
+      "status": "pending",
+      "reasons": [
+        "correction/withdrawal/retraction review incomplete"
+      ],
+      "warnings": [],
+      "metadata_source": "cached crossref (2026-10-13)",
+      "registry_record": {
+        "doi": "10.1145/3627673.3680016",
+        "title": "RCAgent: Cloud Root Cause Analysis by Autonomous Agents with Tool-Augmented Large Language Models",
+        "authors": [
+          "Wang",
+          "Liu",
+          "Zhang",
+          "Zhong",
+          "Wang",
+          "Yin",
+          "Fan",
+          "Wu",
+          "Wen"
+        ],
+        "years": [
+          2024
+        ],
+        "venues": [
+          "Proceedings of the 33rd ACM International Conference on Information and Knowledge Management"
+        ],
+        "type": "proceedings-article",
+        "url": "https://doi.org/10.1145/3627673.3680016",
+        "preprint": false,
+        "notices": [],
+        "published_relations": []
+      }
+    },
+    {
+      "key": "geldenhuys2024demeter",
+      "doi": "10.1145/3629526.3645048",
+      "year": 2024,
+      "preprint": false,
+      "status": "pending",
+      "reasons": [
+        "correction/withdrawal/retraction review incomplete",
+        "DOI not found in rendered text; inspect bibliography/style"
+      ],
+      "warnings": [],
+      "metadata_source": "cached crossref (2026-10-13)",
+      "registry_record": {
+        "doi": "10.1145/3629526.3645048",
+        "title": "Demeter: Resource-Efficient Distributed Stream Processing under Dynamic Loads with Multi-Configuration Optimization",
+        "authors": [
+          "Geldenhuys",
+          "Scheinert",
+          "Kao",
+          "Thamsen"
+        ],
+        "years": [
+          2024
+        ],
+        "venues": [
+          "Proceedings of the 15th ACM/SPEC International Conference on Performance Engineering"
+        ],
+        "type": "proceedings-article",
+        "url": "https://doi.org/10.1145/3629526.3645048",
+        "preprint": false,
+        "notices": [],
+        "published_relations": []
+      }
+    },
+    {
+      "key": "pedratscher2025streamline",
+      "doi": "10.1016/j.iot.2025.101731",
+      "year": 2025,
+      "preprint": false,
+      "status": "pending",
+      "reasons": [
+        "correction/withdrawal/retraction review incomplete"
+      ],
+      "warnings": [],
+      "metadata_source": "cached crossref (2026-10-13)",
+      "registry_record": {
+        "doi": "10.1016/j.iot.2025.101731",
+        "title": "STREAMLINE: Dynamic and Resource-Efficient Auto-Tuning of Stream Processing Data Pipeline Ensembles",
+        "authors": [
+          "Pedratscher",
+          "Samani",
+          "Poveda",
+          "Fahringer",
+          "Etheredge",
+          "Younesi",
+          "Barrionuevo",
+          "Thoman"
+        ],
+        "years": [
+          2025
+        ],
+        "venues": [
+          "Internet of Things"
+        ],
+        "type": "journal-article",
+        "url": "https://doi.org/10.1016/j.iot.2025.101731",
+        "preprint": false,
+        "notices": [],
+        "published_relations": []
+      }
+    },
+    {
+      "key": "tan2025caom",
+      "doi": "10.1109/tcc.2025.3538512",
+      "year": 2025,
+      "preprint": false,
+      "status": "pending",
+      "reasons": [
+        "correction/withdrawal/retraction review incomplete"
+      ],
+      "warnings": [],
+      "metadata_source": "cached crossref (2026-10-13)",
+      "registry_record": {
+        "doi": "10.1109/tcc.2025.3538512",
+        "title": "A Cost-Aware Operator Migration Approach for Distributed Stream Processing System",
+        "authors": [
+          "Tan",
+          "Tang",
+          "Cai",
+          "Tan",
+          "Xiao",
+          "Zhang",
+          "Gao",
+          "Li"
+        ],
+        "years": [
+          2025
+        ],
+        "venues": [
+          "IEEE Transactions on Cloud Computing"
+        ],
+        "type": "journal-article",
+        "url": "https://doi.org/10.1109/tcc.2025.3538512",
+        "preprint": false,
+        "notices": [],
+        "published_relations": []
+      }
+    },
+    {
+      "key": "sedlak2026mudap",
+      "doi": "10.1109/tsc.2026.3711142",
+      "year": 2026,
+      "preprint": false,
+      "status": "pending",
+      "reasons": [
+        "claim-support review incomplete",
+        "correction/withdrawal/retraction review incomplete",
+        "DOI not found in rendered text; inspect bibliography/style"
+      ],
+      "warnings": [],
+      "metadata_source": "cached crossref (2026-10-13)",
+      "registry_record": {
+        "doi": "10.1109/tsc.2026.3711142",
+        "title": "Multi-Dimensional Autoscaling of Stream Processing Services on Edge Devices",
+        "authors": [
+          "Sedlak",
+          "Raith",
+          "Morichetta",
+          "Pujol",
+          "Dustdar"
+        ],
+        "years": [
+          2026
+        ],
+        "venues": [
+          "IEEE Transactions on Services Computing"
+        ],
+        "type": "journal-article",
+        "url": "https://doi.org/10.1109/tsc.2026.3711142",
+        "preprint": false,
+        "notices": [],
+        "published_relations": []
+      }
+    },
+    {
+      "key": "qing2025drrs",
+      "doi": "10.1109/icde65448.2025.00286",
+      "year": 2025,
+      "preprint": false,
+      "status": "pending",
+      "reasons": [
+        "correction/withdrawal/retraction review incomplete"
+      ],
+      "warnings": [],
+      "metadata_source": "cached crossref (2026-10-13)",
+      "registry_record": {
+        "doi": "10.1109/icde65448.2025.00286",
+        "title": "Towards Fine-Grained Scalability for Stateful Stream Processing Systems",
+        "authors": [
+          "Qing",
+          "Zheng"
+        ],
+        "years": [
+          2025
+        ],
+        "venues": [
+          "2025 IEEE 41st International Conference on Data Engineering (ICDE)"
+        ],
+        "type": "proceedings-article",
+        "url": "https://doi.org/10.1109/icde65448.2025.00286",
+        "preprint": false,
+        "notices": [],
+        "published_relations": []
+      }
+    },
+    {
+      "key": "fan2026rastream",
+      "doi": "10.1016/j.future.2025.108119",
+      "year": 2026,
+      "preprint": false,
+      "status": "pending",
+      "reasons": [
+        "correction/withdrawal/retraction review incomplete"
+      ],
+      "warnings": [],
+      "metadata_source": "cached crossref (2026-10-13)",
+      "registry_record": {
+        "doi": "10.1016/j.future.2025.108119",
+        "title": "A fine-grained task scheduling strategy for resource auto-scaling over fluctuating data streams",
+        "authors": [
+          "Fan",
+          "Sun",
+          "Wu",
+          "Gao",
+          "Buyya"
+        ],
+        "years": [
+          2026
+        ],
+        "venues": [
+          "Future Generation Computer Systems"
+        ],
+        "type": "journal-article",
+        "url": "https://doi.org/10.1016/j.future.2025.108119",
+        "preprint": false,
+        "notices": [],
+        "published_relations": []
+      }
+    },
+    {
+      "key": "ren2026sapdpo",
+      "doi": "10.1016/j.future.2026.108520",
+      "year": 2026,
+      "preprint": false,
+      "status": "pending",
+      "reasons": [
+        "correction/withdrawal/retraction review incomplete"
+      ],
+      "warnings": [],
+      "metadata_source": "cached crossref (2026-10-13)",
+      "registry_record": {
+        "doi": "10.1016/j.future.2026.108520",
+        "title": "Stream-aware and parameter self-adaptive data partitioning algorithm for fluctuating data stream processing",
+        "authors": [
+          "Ren",
+          "Li"
+        ],
+        "years": [
+          2026
+        ],
+        "venues": [
+          "Future Generation Computer Systems"
+        ],
+        "type": "journal-article",
+        "url": "https://doi.org/10.1016/j.future.2026.108520",
+        "preprint": false,
+        "notices": [],
+        "published_relations": []
+      }
+    },
+    {
+      "key": "li2025energyflink",
+      "doi": "10.1016/j.future.2024.107681",
+      "year": 2025,
+      "preprint": false,
+      "status": "pending",
+      "reasons": [
+        "correction/withdrawal/retraction review incomplete"
+      ],
+      "warnings": [],
+      "metadata_source": "cached crossref (2026-10-13)",
+      "registry_record": {
+        "doi": "10.1016/j.future.2024.107681",
+        "title": "Energy-aware scheduling and two-tier coordinated load balancing for streaming applications in apache flink",
+        "authors": [
+          "Li",
+          "Li",
+          "Duan",
+          "Xia"
+        ],
+        "years": [
+          2025
+        ],
+        "venues": [
+          "Future Generation Computer Systems"
+        ],
+        "type": "journal-article",
+        "url": "https://doi.org/10.1016/j.future.2024.107681",
+        "preprint": false,
+        "notices": [],
+        "published_relations": []
+      }
+    },
+    {
+      "key": "pfister2024daedalus",
+      "doi": "10.1145/3629526.3645042",
+      "year": 2024,
+      "preprint": false,
+      "status": "pending",
+      "reasons": [
+        "correction/withdrawal/retraction review incomplete",
+        "DOI not found in rendered text; inspect bibliography/style"
+      ],
+      "warnings": [],
+      "metadata_source": "cached crossref (2026-10-13)",
+      "registry_record": {
+        "doi": "10.1145/3629526.3645042",
+        "title": "Daedalus: Self-Adaptive Horizontal Autoscaling for Resource Efficiency of Distributed Stream Processing Systems",
+        "authors": [
+          "Pfister",
+          "Scheinert",
+          "Geldenhuys",
+          "Kao"
+        ],
+        "years": [
+          2024
+        ],
+        "venues": [
+          "Proceedings of the 15th ACM/SPEC International Conference on Performance Engineering"
+        ],
+        "type": "proceedings-article",
+        "url": "https://doi.org/10.1145/3629526.3645042",
+        "preprint": false,
+        "notices": [],
+        "published_relations": []
+      }
+    },
+    {
+      "key": "geldenhuys2022phoebe",
+      "doi": "10.1109/icws55610.2022.00041",
+      "year": 2022,
+      "preprint": false,
+      "status": "pending",
+      "reasons": [
+        "correction/withdrawal/retraction review incomplete",
+        "DOI not found in rendered text; inspect bibliography/style"
+      ],
+      "warnings": [],
+      "metadata_source": "cached crossref (2026-10-13)",
+      "registry_record": {
+        "doi": "10.1109/icws55610.2022.00041",
+        "title": "Phoebe: QoS-Aware Distributed Stream Processing through Anticipating Dynamic Workloads",
+        "authors": [
+          "Geldenhuys",
+          "Scheinert",
+          "Kao",
+          "Thamsen"
+        ],
+        "years": [
+          2022
+        ],
+        "venues": [
+          "2022 IEEE International Conference on Web Services (ICWS)"
+        ],
+        "type": "proceedings-article",
+        "url": "https://doi.org/10.1109/icws55610.2022.00041",
+        "preprint": false,
+        "notices": [],
+        "published_relations": []
+      }
+    },
+    {
+      "key": "ding2025scitoolagent",
+      "doi": "10.1038/s43588-025-00849-y",
+      "year": 2025,
+      "preprint": false,
+      "status": "pending",
+      "reasons": [
+        "correction/withdrawal/retraction review incomplete"
+      ],
+      "warnings": [],
+      "metadata_source": "cached crossref (2026-10-13)",
+      "registry_record": {
+        "doi": "10.1038/s43588-025-00849-y",
+        "title": "SciToolAgent: a knowledge-graph-driven scientific agent for multitool integration",
+        "authors": [
+          "Ding",
+          "Yu",
+          "Huang",
+          "Yang",
+          "Zhang",
+          "Chen"
+        ],
+        "years": [
+          2025
+        ],
+        "venues": [
+          "Nature Computational Science"
+        ],
+        "type": "journal-article",
+        "url": "https://doi.org/10.1038/s43588-025-00849-y",
+        "preprint": false,
+        "notices": [],
+        "published_relations": []
+      }
+    },
+    {
+      "key": "bu2026biomedagent",
+      "doi": "10.1038/s41551-026-01634-6",
+      "year": 2026,
+      "preprint": false,
+      "status": "pending",
+      "reasons": [
+        "correction/withdrawal/retraction review incomplete"
+      ],
+      "warnings": [],
+      "metadata_source": "cached crossref (2026-10-13)",
+      "registry_record": {
+        "doi": "10.1038/s41551-026-01634-6",
+        "title": "Empowering AI data scientists using a multi-agent LLM framework with self-evolving capabilities for autonomous, tool-aware biomedical data analyses",
+        "authors": [
+          "Bu",
+          "Sun",
+          "Li",
+          "He",
+          "Huang",
+          "Hu",
+          "Zhang",
+          "Lei",
+          "Huo",
+          "Wang",
+          "Wang",
+          "Wang",
+          "Gao",
+          "Wu",
+          "Zhao",
+          "Wang",
+          "Li",
+          "Song",
+          "Jin",
+          "Zhang",
+          "Chen",
+          "Zhao"
+        ],
+        "years": [
+          2026
+        ],
+        "venues": [
+          "Nature Biomedical Engineering"
+        ],
+        "type": "journal-article",
+        "url": "https://doi.org/10.1038/s41551-026-01634-6",
+        "preprint": false,
+        "notices": [],
+        "published_relations": []
+      }
+    },
+    {
+      "key": "colangelo2026grid",
+      "doi": "10.1038/s41560-025-01927-1",
+      "year": 2026,
+      "preprint": false,
+      "status": "pending",
+      "reasons": [
+        "year differs from registry publication dates",
+        "correction/withdrawal/retraction review incomplete",
+        "DOI not found in rendered text; inspect bibliography/style"
+      ],
+      "warnings": [],
+      "metadata_source": "cached crossref (2026-10-13)",
+      "registry_record": {
+        "doi": "10.1038/s41560-025-01927-1",
+        "title": "AI data centres as grid-interactive assets",
+        "authors": [
+          "Colangelo",
+          "Coskun",
+          "Megrue",
+          "Roberts",
+          "Sengupta",
+          "Sivaram",
+          "Tiao",
+          "Vijaykar",
+          "Williams",
+          "Wilson",
+          "Records",
+          "MacFarland",
+          "Dreiling",
+          "Morey",
+          "Ratnayake",
+          "Vairamohan"
+        ],
+        "years": [
+          2025
+        ],
+        "venues": [
+          "Nature Energy"
+        ],
+        "type": "journal-article",
+        "url": "https://doi.org/10.1038/s41560-025-01927-1",
+        "preprint": false,
+        "notices": [],
+        "published_relations": []
+      }
+    }
+  ],
+  "issues": [],
+  "manuscript": {
+    "scope": "main and brace-delimited includes",
+    "usage_assessed": true,
+    "files": [
+      "D:\\1.msc\\Big-Data\\paper\\main.tex",
+      "D:\\1.msc\\Big-Data\\paper\\sections\\literature-review.tex"
+    ],
+    "issues": [],
+    "citation_keys": [
+      "bai2026oracl",
+      "bu2026biomedagent",
+      "colangelo2026grid",
+      "ding2025scitoolagent",
+      "fan2026rastream",
+      "geldenhuys2022phoebe",
+      "geldenhuys2024demeter",
+      "li2025energyflink",
+      "pedratscher2025streamline",
+      "pfister2024daedalus",
+      "qing2025drrs",
+      "ren2026sapdpo",
+      "sedlak2026mudap",
+      "tan2025caom",
+      "wang2024rcagent"
+    ],
+    "unused_keys": [],
+    "limitations": "Static common-command checks only; macros, external labels, graphics and full correctness require compilation and review."
+  },
+  "automatic_gate_passed": false,
+  "scope": "Registry comparisons and recorded human-review fields only; not independent scientific claim verification, visual QA, or submission certification.",
+  "rendered_check": "DOI text occurrence only; manually inspect each reference",
+  "inputs": {
+    "bibliography": "D:\\1.msc\\Big-Data\\paper\\references.bib",
+    "bib_sha256": "91607d1fcecf2867da3d8aeb952a36052eb02067bfadc5cb6531783f6911734e",
+    "ledger": "D:\\1.msc\\Big-Data\\research\\literature\\reference-ledger.csv",
+    "ledger_sha256": "df5086ef8f1305ae5257d85321ec393174438afd4b29ca92107c016261a25093"
+  }
+}

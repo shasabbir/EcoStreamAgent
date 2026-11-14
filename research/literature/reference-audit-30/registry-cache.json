@@ -1,0 +1,806 @@
+{
+  "10.1109/tsc.2026.3707982": {
+    "retrieved_at": "2026-10-26",
+    "source": "crossref",
+    "record": {
+      "doi": "10.1109/tsc.2026.3707982",
+      "title": "<b>ORACL</b>\n                    : Optimized Reasoning for Autoscaling via Chain of Thought With LLMs for Microservices",
+      "authors": [
+        "Bai",
+        "Islam",
+        "Xu",
+        "Buyya"
+      ],
+      "years": [
+        2026
+      ],
+      "venues": [
+        "IEEE Transactions on Services Computing"
+      ],
+      "type": "journal-article",
+      "url": "https://doi.org/10.1109/tsc.2026.3707982",
+      "preprint": false,
+      "notices": [],
+      "published_relations": []
+    }
+  },
+  "10.1145/3627673.3680016": {
+    "retrieved_at": "2026-10-26",
+    "source": "crossref",
+    "record": {
+      "doi": "10.1145/3627673.3680016",
+      "title": "RCAgent: Cloud Root Cause Analysis by Autonomous Agents with Tool-Augmented Large Language Models",
+      "authors": [
+        "Wang",
+        "Liu",
+        "Zhang",
+        "Zhong",
+        "Wang",
+        "Yin",
+        "Fan",
+        "Wu",
+        "Wen"
+      ],
+      "years": [
+        2024
+      ],
+      "venues": [
+        "Proceedings of the 33rd ACM International Conference on Information and Knowledge Management"
+      ],
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1145/3627673.3680016",
+      "preprint": false,
+      "notices": [],
+      "published_relations": []
+    }
+  },
+  "10.1145/3629526.3645048": {
+    "retrieved_at": "2026-10-26",
+    "source": "crossref",
+    "record": {
+      "doi": "10.1145/3629526.3645048",
+      "title": "Demeter: Resource-Efficient Distributed Stream Processing under Dynamic Loads with Multi-Configuration Optimization",
+      "authors": [
+        "Geldenhuys",
+        "Scheinert",
+        "Kao",
+        "Thamsen"
+      ],
+      "years": [
+        2024
+      ],
+      "venues": [
+        "Proceedings of the 15th ACM/SPEC International Conference on Performance Engineering"
+      ],
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1145/3629526.3645048",
+      "preprint": false,
+      "notices": [],
+      "published_relations": []
+    }
+  },
+  "10.1016/j.iot.2025.101731": {
+    "retrieved_at": "2026-10-26",
+    "source": "crossref",
+    "record": {
+      "doi": "10.1016/j.iot.2025.101731",
+      "title": "STREAMLINE: Dynamic and Resource-Efficient Auto-Tuning of Stream Processing Data Pipeline Ensembles",
+      "authors": [
+        "Pedratscher",
+        "Samani",
+        "Poveda",
+        "Fahringer",
+        "Etheredge",
+        "Younesi",
+        "Barrionuevo",
+        "Thoman"
+      ],
+      "years": [
+        2025
+      ],
+      "venues": [
+        "Internet of Things"
+      ],
+      "type": "journal-article",
+      "url": "https://doi.org/10.1016/j.iot.2025.101731",
+      "preprint": false,
+      "notices": [],
+      "published_relations": []
+    }
+  },
+  "10.1109/tcc.2025.3538512": {
+    "retrieved_at": "2026-10-26",
+    "source": "crossref",
+    "record": {
+      "doi": "10.1109/tcc.2025.3538512",
+      "title": "A Cost-Aware Operator Migration Approach for Distributed Stream Processing System",
+      "authors": [
+        "Tan",
+        "Tang",
+        "Cai",
+        "Tan",
+        "Xiao",
+        "Zhang",
+        "Gao",
+        "Li"
+      ],
+      "years": [
+        2025
+      ],
+      "venues": [
+        "IEEE Transactions on Cloud Computing"
+      ],
+      "type": "journal-article",
+      "url": "https://doi.org/10.1109/tcc.2025.3538512",
+      "preprint": false,
+      "notices": [],
+      "published_relations": []
+    }
+  },
+  "10.1109/tsc.2026.3711142": {
+    "retrieved_at": "2026-10-26",
+    "source": "crossref",
+    "record": {
+      "doi": "10.1109/tsc.2026.3711142",
+      "title": "Multi-Dimensional Autoscaling of Stream Processing Services on Edge Devices",
+      "authors": [
+        "Sedlak",
+        "Raith",
+        "Morichetta",
+        "Pujol",
+        "Dustdar"
+      ],
+      "years": [
+        2026
+      ],
+      "venues": [
+        "IEEE Transactions on Services Computing"
+      ],
+      "type": "journal-article",
+      "url": "https://doi.org/10.1109/tsc.2026.3711142",
+      "preprint": false,
+      "notices": [],
+      "published_relations": []
+    }
+  },
+  "10.1109/icde65448.2025.00286": {
+    "retrieved_at": "2026-10-26",
+    "source": "crossref",
+    "record": {
+      "doi": "10.1109/icde65448.2025.00286",
+      "title": "Towards Fine-Grained Scalability for Stateful Stream Processing Systems",
+      "authors": [
+        "Qing",
+        "Zheng"
+      ],
+      "years": [
+        2025
+      ],
+      "venues": [
+        "2025 IEEE 41st International Conference on Data Engineering (ICDE)"
+      ],
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1109/icde65448.2025.00286",
+      "preprint": false,
+      "notices": [],
+      "published_relations": []
+    }
+  },
+  "10.1016/j.future.2025.108119": {
+    "retrieved_at": "2026-10-26",
+    "source": "crossref",
+    "record": {
+      "doi": "10.1016/j.future.2025.108119",
+      "title": "A fine-grained task scheduling strategy for resource auto-scaling over fluctuating data streams",
+      "authors": [
+        "Fan",
+        "Sun",
+        "Wu",
+        "Gao",
+        "Buyya"
+      ],
+      "years": [
+        2026
+      ],
+      "venues": [
+        "Future Generation Computer Systems"
+      ],
+      "type": "journal-article",
+      "url": "https://doi.org/10.1016/j.future.2025.108119",
+      "preprint": false,
+      "notices": [],
+      "published_relations": []
+    }
+  },
+  "10.1016/j.future.2026.108520": {
+    "retrieved_at": "2026-10-26",
+    "source": "crossref",
+    "record": {
+      "doi": "10.1016/j.future.2026.108520",
+      "title": "Stream-aware and parameter self-adaptive data partitioning algorithm for fluctuating data stream processing",
+      "authors": [
+        "Ren",
+        "Li"
+      ],
+      "years": [
+        2026
+      ],
+      "venues": [
+        "Future Generation Computer Systems"
+      ],
+      "type": "journal-article",
+      "url": "https://doi.org/10.1016/j.future.2026.108520",
+      "preprint": false,
+      "notices": [],
+      "published_relations": []
+    }
+  },
+  "10.1016/j.future.2024.107681": {
+    "retrieved_at": "2026-10-26",
+    "source": "crossref",
+    "record": {
+      "doi": "10.1016/j.future.2024.107681",
+      "title": "Energy-aware scheduling and two-tier coordinated load balancing for streaming applications in apache flink",
+      "authors": [
+        "Li",
+        "Li",
+        "Duan",
+        "Xia"
+      ],
+      "years": [
+        2025
+      ],
+      "venues": [
+        "Future Generation Computer Systems"
+      ],
+      "type": "journal-article",
+      "url": "https://doi.org/10.1016/j.future.2024.107681",
+      "preprint": false,
+      "notices": [],
+      "published_relations": []
+    }
+  },
+  "10.1145/3629526.3645042": {
+    "retrieved_at": "2026-10-26",
+    "source": "crossref",
+    "record": {
+      "doi": "10.1145/3629526.3645042",
+      "title": "Daedalus: Self-Adaptive Horizontal Autoscaling for Resource Efficiency of Distributed Stream Processing Systems",
+      "authors": [
+        "Pfister",
+        "Scheinert",
+        "Geldenhuys",
+        "Kao"
+      ],
+      "years": [
+        2024
+      ],
+      "venues": [
+        "Proceedings of the 15th ACM/SPEC International Conference on Performance Engineering"
+      ],
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1145/3629526.3645042",
+      "preprint": false,
+      "notices": [],
+      "published_relations": []
+    }
+  },
+  "10.1109/icws55610.2022.00041": {
+    "retrieved_at": "2026-10-26",
+    "source": "crossref",
+    "record": {
+      "doi": "10.1109/icws55610.2022.00041",
+      "title": "Phoebe: QoS-Aware Distributed Stream Processing through Anticipating Dynamic Workloads",
+      "authors": [
+        "Geldenhuys",
+        "Scheinert",
+        "Kao",
+        "Thamsen"
+      ],
+      "years": [
+        2022
+      ],
+      "venues": [
+        "2022 IEEE International Conference on Web Services (ICWS)"
+      ],
+      "type": "proceedings-article",
+      "url": "https://doi.org/10.1109/icws55610.2022.00041",
+      "preprint": false,
+      "notices": [],
+      "published_relations": []
+    }
+  },
+  "10.1038/s43588-025-00849-y": {
+    "retrieved_at": "2026-10-26",
+    "source": "crossref",
+    "record": {
+      "doi": "10.1038/s43588-025-00849-y",
+      "title": "SciToolAgent: a knowledge-graph-driven scientific agent for multitool integration",
+      "authors": [
+        "Ding",
+        "Yu",
+        "Huang",
+        "Yang",
+        "Zhang",
+        "Chen"
+      ],
+      "years": [
+        2025
+      ],
+      "venues": [
+        "Nature Computational Science"
+      ],
+      "type": "journal-article",
+      "url": "https://doi.org/10.1038/s43588-025-00849-y",
+      "preprint": false,
+      "notices": [],
+      "published_relations": []
+    }
+  },
+  "10.1038/s41551-026-01634-6": {
+    "retrieved_at": "2026-10-26",
+    "source": "crossref",
+    "record": {
+      "doi": "10.1038/s41551-026-01634-6",
+      "title": "Empowering AI data scientists using a multi-agent LLM framework with self-evolving capabilities for autonomous, tool-aware biomedical data analyses",
+      "authors": [
+        "Bu",
+        "Sun",
+        "Li",
+        "He",
+        "Huang",
+        "Hu",
+        "Zhang",
+        "Lei",
+        "Huo",
+        "Wang",
+        "Wang",
+        "Wang",
+        "Gao",
+        "Wu",
+        "Zhao",
+        "Wang",
+        "Li",
+        "Song",
+        "Jin",
+        "Zhang",
+        "Chen",
+        "Zhao"
+      ],
+      "years": [
+        2026
+      ],
+      "venues": [
+        "Nature Biomedical Engineering"
+      ],
+      "type": "journal-article",
+      "url": "https://doi.org/10.1038/s41551-026-01634-6",
+      "preprint": false,
+      "notices": [],
+      "published_relations": []
+    }
+  },
+  "10.1038/s41560-025-01927-1": {
+    "retrieved_at": "2026-10-26",
+    "source": "crossref",
+    "record": {
+      "doi": "10.1038/s41560-025-01927-1",
+      "title": "AI data centres as grid-interactive assets",
+      "authors": [
+        "Colangelo",
+        "Coskun",
+        "Megrue",
+        "Roberts",
+        "Sengupta",
+        "Sivaram",
+        "Tiao",
+        "Vijaykar",
+        "Williams",
+        "Wilson",
+        "Records",
+        "MacFarland",
+        "Dreiling",
+        "Morey",
+        "Ratnayake",
+        "Vairamohan"
+      ],
+      "years": [
+        2025
+      ],
+      "venues": [
+        "Nature Energy"
+      ],
+      "type": "journal-article",
+      "url": "https://doi.org/10.1038/s41560-025-01927-1",
+      "preprint": false,
+      "notices": [],
+      "published_relations": []
+    }
+  },
+  "10.14778/3801059.3801066": {
+    "retrieved_at": "2026-10-26",
+    "source": "crossref",
+    "record": {
+      "doi": "10.14778/3801059.3801066",
+      "title": "Scarf: Self-Adaptive Tuning via Multi-Objective Reinforcement Learning for Apache Flink",
+      "authors": [
+        "Liu",
+        "Gong",
+        "Fang",
+        "Gao"
+      ],
+      "years": [
+        2026
+      ],
+      "venues": [
+        "Proceedings of the VLDB Endowment"
+      ],
+      "type": "journal-article",
+      "url": "https://doi.org/10.14778/3801059.3801066",
+      "preprint": false,
+      "notices": [],
+      "published_relations": []
+    }
+  },
+  "10.1016/j.future.2026.108461": {
+    "retrieved_at": "2026-10-26",
+    "source": "crossref",
+    "record": {
+      "doi": "10.1016/j.future.2026.108461",
+      "title": "A Multi-Model predictive framework for adaptive resource management in stream processing systems",
+      "authors": [
+        "Wladdimiro",
+        "Hidalgo",
+        "Pagliari",
+        "Arantes",
+        "Sens",
+        "Rosas",
+        "Reyes"
+      ],
+      "years": [
+        2026
+      ],
+      "venues": [
+        "Future Generation Computer Systems"
+      ],
+      "type": "journal-article",
+      "url": "https://doi.org/10.1016/j.future.2026.108461",
+      "preprint": false,
+      "notices": [],
+      "published_relations": []
+    }
+  },
+  "10.1109/tsc.2025.3611995": {
+    "retrieved_at": "2026-10-26",
+    "source": "crossref",
+    "record": {
+      "doi": "10.1109/tsc.2025.3611995",
+      "title": "A Hierarchical Near-Source Grouping Strategy for Elastic Stream Computing Systems",
+      "authors": [
+        "Wu",
+        "Sun",
+        "Gao",
+        "Buyya"
+      ],
+      "years": [
+        2025
+      ],
+      "venues": [
+        "IEEE Transactions on Services Computing"
+      ],
+      "type": "journal-article",
+      "url": "https://doi.org/10.1109/tsc.2025.3611995",
+      "preprint": false,
+      "notices": [],
+      "published_relations": []
+    }
+  },
+  "10.1016/j.future.2024.107673": {
+    "retrieved_at": "2026-10-26",
+    "source": "crossref",
+    "record": {
+      "doi": "10.1016/j.future.2024.107673",
+      "title": "Straggler mitigation via hierarchical scheduling in elastic stream computing systems",
+      "authors": [
+        "Wu",
+        "Sun",
+        "Gao",
+        "Buyya"
+      ],
+      "years": [
+        2025
+      ],
+      "venues": [
+        "Future Generation Computer Systems"
+      ],
+      "type": "journal-article",
+      "url": "https://doi.org/10.1016/j.future.2024.107673",
+      "preprint": false,
+      "notices": [],
+      "published_relations": []
+    }
+  },
+  "10.1016/j.future.2025.108235": {
+    "retrieved_at": "2026-10-26",
+    "source": "crossref",
+    "record": {
+      "doi": "10.1016/j.future.2025.108235",
+      "title": "Federated reinforcement learning-based adaptive stream applications scheduling in edge and cloud computing",
+      "authors": [
+        "Lajili",
+        "Brahmi",
+        "Omri",
+        "Perez De Prado"
+      ],
+      "years": [
+        2026
+      ],
+      "venues": [
+        "Future Generation Computer Systems"
+      ],
+      "type": "journal-article",
+      "url": "https://doi.org/10.1016/j.future.2025.108235",
+      "preprint": false,
+      "notices": [],
+      "published_relations": []
+    }
+  },
+  "10.1145/3597435": {
+    "retrieved_at": "2026-10-26",
+    "source": "crossref",
+    "record": {
+      "doi": "10.1145/3597435",
+      "title": "Hierarchical Auto-scaling Policies for Data Stream Processing on Heterogeneous Resources",
+      "authors": [
+        "Russo Russo",
+        "Cardellini",
+        "Lo Presti"
+      ],
+      "years": [
+        2023
+      ],
+      "venues": [
+        "ACM Transactions on Autonomous and Adaptive Systems"
+      ],
+      "type": "journal-article",
+      "url": "https://doi.org/10.1145/3597435",
+      "preprint": false,
+      "notices": [],
+      "published_relations": []
+    }
+  },
+  "10.1007/s10723-024-09756-4": {
+    "retrieved_at": "2026-10-26",
+    "source": "crossref",
+    "record": {
+      "doi": "10.1007/s10723-024-09756-4",
+      "title": "Adaptive Scheduling Framework of Streaming Applications based on Resource Demand Prediction with Hybrid Algorithms",
+      "authors": [
+        "Li",
+        "Luo",
+        "Xie",
+        "Ye",
+        "Duan"
+      ],
+      "years": [
+        2024
+      ],
+      "venues": [
+        "Journal of Grid Computing"
+      ],
+      "type": "journal-article",
+      "url": "https://doi.org/10.1007/s10723-024-09756-4",
+      "preprint": false,
+      "notices": [],
+      "published_relations": []
+    }
+  },
+  "10.1007/s10115-025-02509-z": {
+    "retrieved_at": "2026-10-26",
+    "source": "crossref",
+    "record": {
+      "doi": "10.1007/s10115-025-02509-z",
+      "title": "Local recovery and partial snapshot in distributed stateful stream processing",
+      "authors": [
+        "Takdir",
+        "Kitagawa",
+        "Amagasa"
+      ],
+      "years": [
+        2025
+      ],
+      "venues": [
+        "Knowledge and Information Systems"
+      ],
+      "type": "journal-article",
+      "url": "https://doi.org/10.1007/s10115-025-02509-z",
+      "preprint": false,
+      "notices": [],
+      "published_relations": []
+    }
+  },
+  "10.1109/tpds.2023.3251997": {
+    "retrieved_at": "2026-10-26",
+    "source": "crossref",
+    "record": {
+      "doi": "10.1109/tpds.2023.3251997",
+      "title": "Adaptive Fragment-Based Parallel State Recovery for Stream Processing Systems",
+      "authors": [
+        "Xu",
+        "Liu",
+        "Ahmed",
+        "Da Silva",
+        "Hu"
+      ],
+      "years": [
+        2023
+      ],
+      "venues": [
+        "IEEE Transactions on Parallel and Distributed Systems"
+      ],
+      "type": "journal-article",
+      "url": "https://doi.org/10.1109/tpds.2023.3251997",
+      "preprint": false,
+      "notices": [],
+      "published_relations": []
+    }
+  },
+  "10.1109/tsc.2025.3629066": {
+    "retrieved_at": "2026-10-26",
+    "source": "crossref",
+    "record": {
+      "doi": "10.1109/tsc.2025.3629066",
+      "title": "TAMO:Fine-Grained Root Cause Analysis via Tool-Assisted LLM Agent With Multi-Modality Observation Data in Cloud-Native Systems",
+      "authors": [
+        "Zhang",
+        "Wang",
+        "Li",
+        "Yuan",
+        "Xiao",
+        "Zhuang",
+        "Yu"
+      ],
+      "years": [
+        2025
+      ],
+      "venues": [
+        "IEEE Transactions on Services Computing"
+      ],
+      "type": "journal-article",
+      "url": "https://doi.org/10.1109/tsc.2025.3629066",
+      "preprint": false,
+      "notices": [],
+      "published_relations": []
+    }
+  },
+  "10.1109/tsc.2026.3676262": {
+    "retrieved_at": "2026-10-26",
+    "source": "crossref",
+    "record": {
+      "doi": "10.1109/tsc.2026.3676262",
+      "title": "LLM-Enhanced Failure Localization in Microservices: Integrating Multi-Modal Data and Expert Interpretation",
+      "authors": [
+        "Zhong",
+        "Fu",
+        "Ma",
+        "Zhang",
+        "Sun",
+        "Bansal",
+        "Pei"
+      ],
+      "years": [
+        2026
+      ],
+      "venues": [
+        "IEEE Transactions on Services Computing"
+      ],
+      "type": "journal-article",
+      "url": "https://doi.org/10.1109/tsc.2026.3676262",
+      "preprint": false,
+      "notices": [],
+      "published_relations": []
+    }
+  },
+  "10.1007/s40747-025-02096-0": {
+    "retrieved_at": "2026-10-26",
+    "source": "crossref",
+    "record": {
+      "doi": "10.1007/s40747-025-02096-0",
+      "title": "Leveraging multi-agent framework for root cause analysis",
+      "authors": [
+        "Fu",
+        "Ding",
+        "Qin",
+        "Yu",
+        "Xu"
+      ],
+      "years": [
+        2025,
+        2026
+      ],
+      "venues": [
+        "Complex &amp; Intelligent Systems"
+      ],
+      "type": "journal-article",
+      "url": "https://doi.org/10.1007/s40747-025-02096-0",
+      "preprint": false,
+      "notices": [],
+      "published_relations": []
+    }
+  },
+  "10.1016/j.jss.2023.111724": {
+    "retrieved_at": "2026-10-26",
+    "source": "crossref",
+    "record": {
+      "doi": "10.1016/j.jss.2023.111724",
+      "title": "CausalRCA: Causal inference based precise fine-grained root cause localization for microservice applications",
+      "authors": [
+        "Xin",
+        "Chen",
+        "Zhao"
+      ],
+      "years": [
+        2023
+      ],
+      "venues": [
+        "Journal of Systems and Software"
+      ],
+      "type": "journal-article",
+      "url": "https://doi.org/10.1016/j.jss.2023.111724",
+      "preprint": false,
+      "notices": [],
+      "published_relations": []
+    }
+  },
+  "10.1007/s00778-023-00819-8": {
+    "retrieved_at": "2026-10-26",
+    "source": "crossref",
+    "record": {
+      "doi": "10.1007/s00778-023-00819-8",
+      "title": "A survey on the evolution of stream processing systems",
+      "authors": [
+        "Fragkoulis",
+        "Carbone",
+        "Kalavri",
+        "Katsifodimos"
+      ],
+      "years": [
+        2023,
+        2024
+      ],
+      "venues": [
+        "The VLDB Journal"
+      ],
+      "type": "journal-article",
+      "url": "https://doi.org/10.1007/s00778-023-00819-8",
+      "preprint": false,
+      "notices": [],
+      "published_relations": []
+    }
+  },
+  "10.1145/3514496": {
+    "retrieved_at": "2026-10-26",
+    "source": "crossref",
+    "record": {
+      "doi": "10.1145/3514496",
+      "title": "Runtime Adaptation of Data Stream Processing Systems: The State of the Art",
+      "authors": [
+        "Cardellini",
+        "Lo Presti",
+        "Nardelli",
+        "Russo"
+      ],
+      "years": [
+        2022
+      ],
+      "venues": [
+        "ACM Computing Surveys"
+      ],
+      "type": "journal-article",
+      "url": "https://doi.org/10.1145/3514496",
+      "preprint": false,
+      "notices": [],
+      "published_relations": []
+    }
+  }
+}
